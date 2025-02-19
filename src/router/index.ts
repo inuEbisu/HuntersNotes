@@ -12,8 +12,8 @@ const router = createRouter({
 
 router.afterEach((to, from) => {
     const meta = assertType<RouteMeta>(to.meta);
-    if (meta.type === "root") document.title = "Xecades Notes";
-    else document.title = `${meta.attr.title} | Xecades Notes`;
+    if (meta.type === "root") document.title = "猎人笔记";
+    else document.title = `${meta.attr.title} | 猎人笔记`;
 });
 
 export default router;

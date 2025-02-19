@@ -19,32 +19,7 @@ import "overlayscrollbars/overlayscrollbars.css";
 
 // Console
 const consoleMessage = () => {
-    const year = new Date().getFullYear();
-    console.log(`
-┌─Xecades Alpha::Note────────────────────────────────┐
-│                                                    │
-│                Yet another notebook                │
-│             Part of the Alpha Project.             │
-│                                                    │
-├────────────────────────────────────────────────────┤
-│                                                    │
-│ Github            https://github.com/Xecades/Note/ │
-│ Website                       https://xecades.xyz/ │
-│ QQ               [DNS TXT] https://qq.xecades.xyz/ │
-│                                                    │
-├────────────────────────────────────────────────────┤
-│                                                    │
-│ Built with Vue.js and... and my laptop.            │
-│                                                    │
-├────────────────────────────────────────────────────┤
-│                                                    │
-│  - [GPL-3.0 License]          for code             │
-│  - [CC BY-NC-SA 4.0 License]  for notes            │
-│                                                    │
-│ Copyright © 2024 - ${year} Xecades                    │
-│                                                    │
-└────────────────────────────────────────────────────┘
-    `);
+    console.log(atob("ICBfX19fXyAgICBfIF8gICAgICAgICAgICAgICAgICBfICAgICAgICAgCiB8XyAgIF98IF8oXykgfF9fIF8gIF8gX18gXyBfIF8oXylfICBfIF9fXwogICB8IHx8ICdffCB8ICdfIFwgfHwgLyBfYCB8ICdffCB8IHx8IChfLTwKICAgfF98fF98IHxffF8uX18vXF8sX1xfXyxffF98IHxffFxfLF8vX18v"));
 };
 
 // Main

@@ -28,7 +28,7 @@ $anchor-width = 1.65rem;
     position: relative;
     margin: 1.5rem 0;
     color: var(--heading-color);
-    font-weight: 500;
+    font-weight: 700;
 
     > .anchor
         font-family: $monospace;

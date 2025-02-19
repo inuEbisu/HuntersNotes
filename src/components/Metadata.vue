@@ -58,7 +58,7 @@ const playConfetti = throttle(1500, () => {
         </span>
 
         <span class="root" v-else @click="playConfetti">
-            <span class="text">惟学无际，际于天地。</span>
+            <span class="text">怕什么真理无穷，进一寸有一寸的欢喜。</span>
         </span>
     </div>
 </template>

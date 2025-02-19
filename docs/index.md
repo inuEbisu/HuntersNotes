@@ -1,47 +1,30 @@
 ---
 title: 主页
-displayTitle: Xecades Notes
+displayTitle: 猎人笔记
 ---
 
-::dot-pattern
-:::p{style="font-size: 1.1em"}
-Hi [👋]{.waving} 欢迎来到我的笔记本～
+欢迎降落！这是首页。
+
+## 关于
+
+在下犬戎。浙江大学预防医学 24 级本科生。
+
+这里是犬戎的课程笔记存放处，只放课程笔记。（别的可以去[犬窝闲谭](https://inuebisu.cn/)逛逛 \:P）
+
+「猎人笔记」的名字来自于屠格涅夫的随笔集《猎人笔记》。
+
+使用 :github.b:[Xecades/Note](https://github.com/Xecades/Note) 略作改动搭建。没办法；它实在是太好看了 T_T
+
+如无特殊声明，这里的所有笔记均采用 [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) 进行授权。
+
+有事摇我：inuebisu@outlook.com
+
+## 信息
+
+:::fold{always expand title="最近更新" success .home-fontawesome-list .home-recent-updates}
+@RECENT_UPDATES
 :::
 
-:::span{.home-links}
-[主页](https://xecades.xyz)
-[博客](https://blog.xecades.xyz/)
-[GitHub](https://github.com/Xecades/Note)
-[CC98](https://www.cc98.org/user/id/731275){title="校内论坛，需要校网连接"}
-:::
-::
-
-::grid{align=equal gapx=10px gapy=20px .home-grid}
-:sep{span=24}
-:::fold{always expand title="关于我" info .home-fontawesome-list}
-&nbsp;:user: 网名 Xecades，读作 /'zɛkeɪdz/
-
-&nbsp;:graduation-cap: 浙江大学图灵班 CS 专业 23 级本科生，目前大二
-
-&nbsp;:flag: CTF 选手，浙江大学 AAA 战队队员
-
-&nbsp;:envelope: i$@$xecades.xyz
-:::
-
-:sep{span=24}
-:::fold{always expand title="关于本站" warning}
-推荐使用电脑浏览器访问本站，以获得最佳阅读体验。
-
-:v{2rem}
-
-::::div{style="font-size: 0.9em; line-height: 1.5em;"}
-$^\ast$ 本站是「Alpha」项目的子项目，所有代码按 [GPL-3.0 协议](https://github.com/Xecades/Note/blob/main/LICENSE)开源于 [GitHub](https://github.com/Xecades/Note)。
-
-$^\ast$ 若未特殊说明，本站所有笔记均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议发布。
-::::
-:::
-
-:sep{span=12 sm:span=24}
 :::fold{always expand title="站点统计" default .home-fontawesome-list}
 &nbsp;:file-lines: 页面总数：@PAGE_COUNT
 
@@ -49,10 +32,3 @@ $^\ast$ 若未特殊说明，本站所有笔记均采用 [CC BY-NC-SA 4.0](https
 
 &nbsp;:calendar-days: 最后更新：@LAST_UPDATE
 :::
-
-:sep{span=12 sm:span=24}
-:::fold{always expand title="最近更新" success .home-fontawesome-list .home-recent-updates}
-@RECENT_UPDATES
-:::
-
-::

@@ -23,6 +23,7 @@ import {
     faLightbulb,
     faLink,
     faMagnifyingGlass,
+    faMusic,
     faSpinner,
     faXmark,
 } from "@fortawesome/free-solid-svg-icons";
@@ -34,6 +35,7 @@ library.add(
     faAngleDown,
     faBars,
     faMagnifyingGlass,
+    faMusic,
     faCaretRight,
     faCaretLeft,
     faXmark,

@@ -1,60 +1,28 @@
 nav:
     - cs:
-          - quantum:
-                - spin
-                - linear-algebra
-                - spin-and-qubits
-                - entanglement
-                - bells-inequality
-                - classic-logic-gates-and-circuits
-                - quantum-gates-and-circuits
-          - ads:
-                - avl-tree
-                - amortized-analysis
-                - splay-tree
-                - red-black-tree
-                - b-plus-tree
-                - leftist-heap
-                - skew-heap
-                - binomial-queue
-          - others:
-                - mit-missing-semester
-                - c-language-cheatsheet
-                - manuals-standards
-    - ctf:
-          - game:
-                - zjuctf2024
-          - crypto:
-                - basis
-                - aes
-                - rsa
-                - diffie-hellman
-                - ecc
+        - pl:
+            - zju-c
+        - algo:
+            - zju-fds:
+                - chapter-01
+        - blockchain:
+            - 3b1b
+            - zju-bc
     - sci:
-          - phy:
-                - chapter-27
-                - chapter-28
-                - chapter-29-30
-          - prob:
-                - distribution
-                - chapter-1
-                - chapter-2
-                - chapter-3
-          - ma:
-                - cheatsheet
-                - prove-that
-                - completeness-of-real-numbers
-          - la:
-                - prove-that
-                - what-is
+        - la:
+            - zju-la
+    - music:
+        - harmony:
+            - funda:
+                - chapter-01
     - misc:
-          - test:
-                - customToken
-                - latex
-                - markdown
+        - test:
+            - customToken
+            - latex
+            - markdown
 
 icon:
     cs: code
-    ctf: flag
     sci: atom
     misc: box-archive
+    music: music
