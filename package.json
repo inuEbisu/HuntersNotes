@@ -45,7 +45,7 @@
         "vue-router": "^4.5.0"
     },
     "devDependencies": {
-        "vite-plugin-vue-xecades-note": "git+https://github.com/yourusername/vite-plugin-vue-xecades-note.git",
+        "vite-plugin-vue-xecades-note": "git+https://github.com/Xecades/vite-plugin-vue-xecades-note.git",
         "@tsconfig/node22": "^22.0.0",
         "@types/canvas-confetti": "^1.9.0",
         "@types/node": "^22.10.2",
