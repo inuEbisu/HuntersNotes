@@ -4,9 +4,9 @@
     "private": true,
     "type": "module",
     "author": {
-        "name": "Xecades",
-        "email": "i@xecades.xyz",
-        "url": "https://xecades.xyz"
+        "name": "HuntersNotes",
+        "email": "inuebisu@outlook.com",
+        "url": "https://note.inuebisu.cn"
     },
     "description": "Yet another personal website.",
     "license": "GPL-3.0-only",
@@ -45,7 +45,7 @@
         "vue-router": "^4.5.0"
     },
     "devDependencies": {
-        "vite-plugin-vue-xecades-note": "file:./../vite-plugin-vue-xecades-note",
+        "vite-plugin-vue-xecades-note": "git+https://github.com/yourusername/vite-plugin-vue-xecades-note.git",
         "@tsconfig/node22": "^22.0.0",
         "@types/canvas-confetti": "^1.9.0",
         "@types/node": "^22.10.2",
