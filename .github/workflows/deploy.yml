@@ -15,27 +15,15 @@ jobs:
               uses: actions/checkout@v3
               with:
                   fetch-depth: 0
-
-            - name: Checkout Plugin Repository
-              uses: actions/checkout@v3
-              with:
-                  repository: "Xecades/vite-plugin-vue-xecades-note"
-                  path: plugin
-                  fetch-depth: 0
+                  submodules: true
 
             - name: Setup Node.js
               uses: actions/setup-node@v3
               with:
-                  node-version: 20
+                  node-version: 22
 
             - name: Install Dependencies in app and plugin
-              run: npm ci && npm --prefix ./plugin ci
-
-            - name: Build Plugin
-              run: npm --prefix ./plugin run build
-
-            - name: Install Plugin
-              run: npm install ./plugin
+              run: npm ci
 
             - name: Generate Cache
               run: npm run cache
