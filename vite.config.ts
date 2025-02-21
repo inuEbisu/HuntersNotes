@@ -5,10 +5,7 @@ import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import vueDevTools from "vite-plugin-vue-devtools";
 import autoprefixer from "autoprefixer";
-import { tsImport } from "tsx/esm/api";
-
-// Thx to motherfxxking Node.js TypeScript support
-const vueXecadesNote: typeof import("vite-plugin-vue-xecades-note/src/index").default = (await tsImport("vite-plugin-vue-xecades-note/src/index", import.meta.url)).default;
+import vueXecadesNote from "vite-plugin-vue-xecades-note";
 
 const customElement = ["rb", "center"];
 

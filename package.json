@@ -11,13 +11,14 @@
     "description": "Yet another personal website.",
     "license": "GPL-3.0-only",
     "scripts": {
-        "dev": "vite",
-        "build": "run-p type-check \"build-only {@}\" --",
+        "dev": "npm run build-plugin && vite dev",
+        "build": "run-p build-plugin type-check \"build-only {@}\" --",
         "preview": "vite preview",
         "build-only": "vite build",
         "type-check": "vue-tsc --build",
         "cache": "tsx ./cache.ts",
-        "clean": "rm -rf dist cache"
+        "clean": "rm -rf dist cache",
+        "build-plugin": "npm run --prefix=vite-plugin-vue-xecades-note build"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.6.0",

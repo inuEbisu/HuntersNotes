@@ -25,6 +25,9 @@ jobs:
             - name: Install Dependencies in app and plugin
               run: npm ci
 
+            - name: Build Plugin
+              run: npm run build-plugin
+
             - name: Generate Cache
               run: npm run cache
 
