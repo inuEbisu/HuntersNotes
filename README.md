@@ -1,18 +1,13 @@
-# Alpha :: Note \[α\]
+# HuntersNotes
 
-Blazing fast static site generator for notes, equipped with [powerful markdown features](https://note.xecades.xyz/misc/test/customToken). View the live site at [note.xecades.xyz](https://note.xecades.xyz/).
+inuEbisu's course notes.
 
----
+The structure is based on [Xecades/XecadesNotes](https://github.com/Xecades/Note), which I simply adopted (with slight modifications) for my own use.
 
-**Note** is part of the **Alpha α** project.
+The name of the project derives from Turgenev's collection of essays, *A Sportsman's Sketches*.
 
- - **Homepage**: [xecades.xyz](https://xecades.xyz/) ([Xecades/Homepage](https://github.com/Xecades/Homepage))
- - **Note**: [note.xecades.xyz](https://note.xecades.xyz/) (This Repo)
- - **Blog**: [blog.xecades.xyz](https://blog.xecades.xyz/) (Private Repo) (*WIP*)
+## License
 
-\* This project relies on the [vite-plugin-vue-xecades-note](https://github.com/Xecades/vite-plugin-vue-xecades-note) plugin. Run `npm link` before running the project.
-
----
-
- - **Tech stack**: Vite, Vue.js, TypeScript
- - **License**: GPL-3.0
+Unless otherwise specified:
+- the code of the project is licensed under GPLv3;
+- the text content is licensed under CC0 1.0 Universal.
