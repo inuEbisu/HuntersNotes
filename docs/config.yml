@@ -17,6 +17,10 @@ nav:
         - harmony:
             - funda:
                 - chapter-01
+        - intonation:
+            - chapter-01
+            - chapter-02
+            - chapter-03
     - misc:
         - test:
             - customToken
