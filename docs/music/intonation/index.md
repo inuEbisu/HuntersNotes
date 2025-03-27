@@ -1,5 +1,5 @@
 ---
-title: 律制简明
+title: 律制简要
 ---
 
 :::fold{title="推荐阅读" expand success}
