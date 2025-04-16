@@ -3,12 +3,12 @@ title: Ch.7 线性空间
 ---
 
 ## 7.2 线性空间
-设数域$P$，集合$V$，在$V$上定义了封闭的加法与数乘。即：
+设数域 $P$，集合 $V$，在 $V$ 上定义了封闭的加法与数乘。即：
 
-- $\forall \alpha, \beta \in V, $ 均有 $\alpha + \beta \in V$
-- $\forall k \in P,\ \alpha \in V, $ 均有 $k\alpha \in V$
+- $\forall \alpha, \beta \in V,$ 均有 $\alpha + \beta \in V$
+- $\forall k \in P,\ \alpha \in V,$ 均有 $k\alpha \in V$
 
-若其满足以下8条运算规则，则称$V$为$P$上的**线性空间**。
+若其满足以下 8 条运算规则，则称 $V$ 为 $P$ 上的**线性空间**。
 
 1. $\alpha + \beta = \beta + \alpha$
 2. $(\alpha + \beta) + \gamma = \alpha + (\beta + \gamma)$
@@ -24,7 +24,7 @@ title: Ch.7 线性空间
 ## 7.3 线性关系
 
 ### 定义
-对于 $\beta \in V,$ 若 $\exists k_1, k_2, \cdots, k_s \in P,$ s.t. $ \beta = k_1\alpha_1 + k_2\alpha_2 + \cdots + k_s\alpha_s,$ 则称 $\beta$ 可由向量组 $\alpha_1, \cdots, \alpha_n$ **线性表示**。
+对于 $\beta \in V,$ 若 $\exists k_1, k_2, \cdots, k_s \in P,$ s.t. $\beta = k_1\alpha_1 + k_2\alpha_2 + \cdots + k_s\alpha_s,$ 则称 $\beta$ 可由向量组 $\alpha_1, \cdots, \alpha_n$ **线性表示**。
 
 可见：
 1. $\beta$ 可由向量组 $\alpha_1, \cdots, \alpha_n$ 线性表示 $\Leftrightarrow Ax = \beta$ 有解；
@@ -48,6 +48,15 @@ $$[\alpha_1, \alpha_2, \cdots, \alpha_s] = [\beta_1, \beta_2, \cdots, \beta_s] \
 
 ### 定理3
 
+对于两个向量组：(I) $\alpha_1, \cdots, \alpha_r$，(II) $\beta_1, \cdots, \beta_s$，
+
+若 I 可由 II 线性表示，且 $r > s$，则 I 线性相关。
+
+若 I 可由 II 线性表示，且 I 线性无关，则 $r < s$。
+
+### 定理4
+
+I 和 II 可互相线性表示 $\Leftrightarrow$ I 与 II 等价。
 
 ## 7.5 极大线性无关组，向量组的秩
 
