@@ -8,4 +8,4 @@ title: ZJU 线性代数
 
 :asterisk
 
-To be continued...
+:index
