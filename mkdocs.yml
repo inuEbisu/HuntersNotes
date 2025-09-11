@@ -3,7 +3,7 @@
 site_name: 猎人笔记
 site_url: https://note.inuebisu.cn
 site_author: inuEbisu
-site_description: 犬戎的课内笔记
+site_description: 犬戎的笔记
 
 repo_url: https://github.com/inuEbisu/HuntersNotes
 repo_name: inuEbisu/HuntersNotes
@@ -128,4 +128,11 @@ nav:
   - Home: index.md
   - Tools:
       - tools/index.md
-      - MkDocs: tools/mkdocs.md
+      - tools/mkdocs.md
+  - Misc:
+      - misc/index.md
+      - 律制:
+          - misc/intonation/index.md
+          - misc/intonation/ch01.md
+          - misc/intonation/ch02.md
+          - misc/intonation/ch03.md
