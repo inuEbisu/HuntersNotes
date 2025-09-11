@@ -76,8 +76,8 @@ theme:
 
 extra:
   analytics:
-    provider: custom
-    property: G-DYETCPM289
+    provider: google
+    property: G-Z6GN5WGV4F
 
 extra_css:
   - https://cdn.tonycrane.cc/utils/katex.min.css
