@@ -11,6 +11,8 @@ edit_uri: edit/main/docs
 
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
   custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -103,9 +105,9 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.inlinehilite
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
-  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
