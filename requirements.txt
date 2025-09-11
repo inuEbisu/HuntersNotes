@@ -1,0 +1,8 @@
+mkdocs
+mkdocs-changelog-plugin
+mkdocs-get-deps
+mkdocs-git-revision-date-localized-plugin
+mkdocs-glightbox
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-statistics-plugin

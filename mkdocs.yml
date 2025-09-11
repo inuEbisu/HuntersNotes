@@ -1,0 +1,122 @@
+#[Info]
+
+site_name: 猎人笔记
+site_url: https://note.inuebisu.cn
+site_author: inuEbisu
+site_description: 猎人笔记
+
+repo_url: https://github.com/inuEbisu/HuntersNotes
+repo_name: inuEbisu/HuntersNotes
+edit_uri: edit/main/docs
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: brown
+      accent: brown
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono NL, LXGW WenKai Screen
+  features:
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.progress
+    - header.autohide
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - navigation.expand
+    - navigation.indexes
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    # - toc.integrate
+    - toc.follow
+  language: zh
+
+  plugins:
+    - glightbox:
+        - width: 80%
+    - search:
+        lang:
+          - en
+          - zh
+    - offline
+    - changelog
+    - git-revision-date-localized:
+        type: datetime
+        timezone: Asia/Shanghai
+        locale: zh
+        enable_creation_date: true
+    - statistics
+    # - heti:
+    #     disable_serve: false
+
+extra:
+  analytics:
+    provider: custom
+    property: G-DYETCPM289
+
+extra_css:
+  - https://cdn.tonycrane.cc/utils/katex.min.css
+  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+nav:
+  - Home: index.md
+  - Tools:
+      - tools/index.md
+      - MkDocs: tools/mkdocs.md
