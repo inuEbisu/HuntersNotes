@@ -3,7 +3,7 @@
 site_name: 猎人笔记
 site_url: https://note.inuebisu.cn
 site_author: inuEbisu
-site_description: 猎人笔记
+site_description: 犬戎的课内笔记
 
 repo_url: https://github.com/inuEbisu/HuntersNotes
 repo_name: inuEbisu/HuntersNotes
@@ -86,12 +86,12 @@ extra_css:
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
   - https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap
-  - css/custom.css
+  - assets/css/custom.css
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-  - js/katex.js
+  - assets/js/katex.js
 
 markdown_extensions:
   - toc:
