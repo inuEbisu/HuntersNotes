@@ -2,15 +2,64 @@
 
 写 MkDocs 常常忘记语法，于是这或许是自用的 Cheatsheet。
 
-## 代码块
+## Pymdownx
 
-```cpp
-#include <iostream>
+简单记录一下扩展 `pymdownx` 的用法。
 
-int main(void) {
-    std::cout << "Hello world!" << std::endl;
-    return 0;
-}
+### Tabbed 选项卡
+
+=== "C++"
+
+    ```cpp
+    #include <iostream>
+
+    int main(void) {
+        std::cout << "Hello World!" << std::endl;
+        return 0;
+    }
+    ```
+
+=== "Python"
+
+    ```py
+    print("Hello World!")
+    ```
+
+Source Code:
+
+```md
+
+=== "C++"
+
+    ```cpp
+    #include <iostream>
+
+    int main(void) {
+        std::cout << "Hello World!" << std::endl;
+        return 0;
+    }
+    ```
+
+=== "Python"
+
+    ```py
+    print("Hello World!")
+    ```
+
+```
+
+### Tasklist 任务清单
+
+- [x] Alice
+- [x] Bob
+- [ ] Charlie
+- [ ] Eve
+
+```md
+- [x] Alice
+- [x] Bob
+- [ ] Charlie
+- [ ] Eve
 ```
 
 ## Admonitions
@@ -136,4 +185,40 @@ int main(void) {
 !!! example
 
 !!! quote
+```
+
+## LaTeX 公式
+
+假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : \, \, n \mapsto \sigma (n)$，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma (n)} = C.
+$$
+
+此外，也存在另一种排列 $\sigma' : \, \, n \mapsto \sigma' (n)$ ，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma' (n)} = \infty.
+$$
+
+类似地，也可以有办法使它的部分和趋于 $-\infty$ ，或没有任何极限。
+
+反之，如果级数是绝对收敛的，那么无论怎样重排，它仍然会收敛到同一个值，也就是级数的和。
+
+```md
+假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : \, \, n \mapsto \sigma (n)$，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma (n)} = C.
+$$
+
+此外，也存在另一种排列 $\sigma' : \, \, n \mapsto \sigma' (n)$ ，使得
+
+$$
+  \sum_{n=1}^\infty a_{\sigma' (n)} = \infty.
+$$
+
+类似地，也可以有办法使它的部分和趋于 $-\infty$ ，或没有任何极限。
+
+反之，如果级数是绝对收敛的，那么无论怎样重排，它仍然会收敛到同一个值，也就是级数的和。
 ```

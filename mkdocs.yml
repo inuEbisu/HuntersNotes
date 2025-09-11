@@ -31,7 +31,7 @@ theme:
         name: 切换至浅色模式
   font:
     text: Noto Sans SC
-    code: JetBrains Mono NL, LXGW WenKai Screen
+    code: JetBrains Mono
   features:
     - announce.dismiss
     - navigation.instant
@@ -82,9 +82,16 @@ extra:
     property: G-Z6GN5WGV4F
 
 extra_css:
-  - https://cdn.tonycrane.cc/utils/katex.min.css
-  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
-  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap
+  - css/custom.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - js/katex.js
 
 markdown_extensions:
   - toc:
