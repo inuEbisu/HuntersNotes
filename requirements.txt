@@ -6,3 +6,4 @@ mkdocs-glightbox
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-statistics-plugin
+mkdocs-pymdownx-material-extras
