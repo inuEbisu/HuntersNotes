@@ -18,7 +18,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: brown
-      accent: brown
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: 切换至深色模式
