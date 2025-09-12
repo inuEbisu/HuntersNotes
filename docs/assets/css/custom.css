@@ -51,12 +51,14 @@
 }
 
 /* image border-radius and shadow */
+
 img:not([src$=".svg"]) {
     border-radius: 5pt;
     box-shadow: var(--md-shadow-z2);
 }
 
 /* heimu moegirl */
+
 .heimu,
 .heimu a,
 a .heimu,
@@ -91,4 +93,10 @@ a:active .heimu {
 
 html {
     scroll-behavior: smooth;
+}
+
+/* arithmatex */
+
+.md-typeset div.arithmatex>* {
+    padding: 0;
 }
