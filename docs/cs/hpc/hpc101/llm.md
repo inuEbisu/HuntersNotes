@@ -8,11 +8,85 @@ comment: true
 
     对应 [Lab 5: TinyLLM](https://hpc101.zjusct.io/lab/Lab5-TinyLLM/)。
 
-!!! quote "WIP"
+<!-- !!! quote "WIP" -->
+
+
+<!-- <object data="./lab5.pdf" type="application/pdf" width="100%" height="800">
+    </object> -->
 
 ## Decoder Layer Overview
 
 Qwen3 Decoder Layer 是一个标准的 Transformer 的 Decoder 架构，在此基础上 Layer Norm 部分使用了 RMS Norm。
+
+以下是一张简图：
+
+```typst
+#import "@preview/cetz:0.4.1"
+#import "@preview/note-me:0.5.0": *
+#import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node
+#import fletcher.shapes: circle as fletcher_circle, hexagon, house
+
+#set page(width: auto, height: auto, margin: .5cm)
+
+#let body-font = "Source Han Sans SC"
+
+#set text(font: body-font, 12pt)
+
+#figure(
+  [
+    #let blob(pos, label, tint: white, ..args) = node(
+      pos,
+      align(center, label),
+      width: 28mm,
+      fill: tint.lighten(60%),
+      stroke: 1pt + tint.darken(20%),
+      ..args,
+    )
+
+    // #let c(..args) = circle(..args)
+    #let circ(pos, tint: white, ..args) = node(
+      pos,
+      align(center, box(baseline: -0.8em)[$+$]),
+      fill: tint,
+      stroke: 1pt + black,
+      shape: fletcher_circle,
+      radius: 2.5mm,
+      ..args,
+    )
+
+    #diagram(
+      spacing: 8pt,
+      cell-size: (8mm, 10mm),
+      edge-stroke: 1pt,
+      edge-corner-radius: 5pt,
+      mark-scale: 70%,
+
+      circ((0, 1)),
+      edge(),
+      blob((0, 2), [Grouped Query\ Attention], tint: orange),
+      blob((0, 3.3), [RMS Norm], tint: yellow, shape: hexagon),
+      edge(),
+      blob((0, 5), [Input], shape: house.with(angle: 30deg), width: auto, tint: red),
+
+      for x in (-.3, -.1, +.1, +.3) {
+        edge((0, 2.8), (x, 2.8), (x, 2), "-|>")
+      },
+      edge((0, 2.8), (0, 4)),
+      edge((0, 4), "r,uuu,l", "--|>"),
+      edge((0, 1), (0, 0.35), "rr", (2, 4), "r", (3, 3.3), "-|>"),
+      edge((3, 4), "r,uuu,l", "--|>"),
+
+      blob((3, 0), [Output], tint: green),
+      edge("<|-"),
+      circ((3, 1)),
+      edge(),
+      blob((3, 2), [Feed\ Forward], tint: blue),
+      edge(),
+      blob((3, 3.3), [RMS Norm], tint: yellow, shape: hexagon),
+    )
+  ]
+)
+```
 
 ### RMSNorm
 
@@ -52,6 +126,83 @@ $\epsilon$ 是防止除零的小常数。$\boldsymbol{\gamma} \in \mathbb{R}^d$ 
 
 而 GQA 实则是 MHA 与 MQA 的一个中间态，它选择的是使用 $n$ 份 $Q$ 对应一份 $K, V$。也就是说 GQA-1 即为 MHA，GQA-$n$ 即为 MQA。GQA 在节省 $K, V$ 的同时，且在实践中性能仍与经典的 MHA 相近。
 
+以下简单地对比 MHA, MQA 与 GQA：
+
+```typst
+#import "@preview/cetz:0.4.1"
+#import "@preview/note-me:0.5.0": *
+#import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node
+#import fletcher.shapes: circle as fletcher_circle, hexagon, house
+
+#set page(width: auto, height: auto, margin: .5cm)
+
+#let body-font = "Source Han Sans SC"
+
+#set text(font: body-font, 12pt)
+
+#figure(
+  [
+    #let blob(pos, label, tint: white, ..args) = node(
+      pos,
+      align(center + horizon, label),
+      width: 26pt,
+      height: 40pt,
+      fill: tint.lighten(60%),
+      stroke: 1pt + tint.darken(20%),
+      shape: rect,
+      corner-radius: 5pt,
+      ..args,
+    )
+
+    #let q(pos, label, ..args) = blob(pos, label, tint: color.aqua, ..args)
+    #let k(pos, label, ..args) = blob(pos, label, tint: color.red.lighten(35%), ..args)
+    #let v(pos, label, ..args) = blob(pos, label, tint: color.orange.lighten(35%), ..args)
+    #let t(pos, label) = node(pos, box(label, height: 20pt, width: 100pt), shape: rect, width: 30pt)
+
+    #block(inset: -5pt)
+
+    #diagram(
+      spacing: 6pt,
+      cell-size: (8mm, 20mm),
+      edge-stroke: 1pt,
+      edge-corner-radius: 5pt,
+      mark-scale: 70%,
+
+      for i in range(4) {
+        q((i, 2), [$Q_#(i + 1)$])
+        edge("--|>")
+        k((i, 1), [$K_#(i + 1)$])
+        edge("-")
+        v((i, 0.15), [$V_#(i + 1)$])
+      },
+
+
+      for i in range(2) {
+        q((5 + 2 * i, 2), [$Q_#(10 * i + 11)$])
+        edge("--|>", (5.5 + 2 * i, 1))
+        q((6 + 2 * i, 2), [$Q_#(10 * i + 12)$])
+        edge("--|>", (5.5 + 2 * i, 1))
+        k((5.5 + 2 * i, 1), [$K_#(i + 1)$])
+        edge("-")
+        v((5.5 + 2 * i, 0.15), [$V_#(i + 1)$])
+      },
+
+      for i in range(4) {
+        q((10 + i, 2), [$Q_#(i + 1)$])
+        edge("--|>", (11.5, 1))
+      },
+      k((11.5, 1), [$K$]),
+      edge("-"),
+      v((11.5, 0.15), [$V$]),
+
+      t((1.5, 2.55), [Multi-head]),
+      t((6.5, 2.55), [Grouped-query]),
+      t((11.5, 2.55), [Multi-query]),
+    )
+  ],
+)
+```
+
 ### Feed Forward Network with Gated Linear Unit
 
 Transformer 中经典的 FFN 通常由一个含偏置的线性层、一个激活函数 $\sigma$ 再一个含偏置的线性层组成。FFN 的公式可以写作
@@ -85,6 +236,90 @@ $$
   \mathrm{FFN}'(x) = W_d \cdot \mathrm{GLU}(x) = W_d \cdot (\sigma(W_g \cdot x) \odot (W_u \cdot x)).
 $$
 
+以下是经典 FFN 与 FFN with GLU 一个简单的对比：
+
+```typst
+#import "@preview/cetz:0.4.1"
+#import "@preview/note-me:0.5.0": *
+#import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node
+#import fletcher.shapes: circle as fletcher_circle, hexagon, house
+
+#set page(width: auto, height: auto, margin: .5cm)
+
+#let body-font = "Source Han Sans SC"
+
+#set text(font: body-font, 12pt)
+
+#figure(
+  [
+    #let blob(pos, label, tint: white, width: auto, ..args) = node(
+      pos,
+      align(center, label),
+      width: width,
+      fill: tint.lighten(60%),
+      stroke: 1pt + tint.darken(20%),
+      corner-radius: 5pt,
+      ..args,
+    )
+
+    // #let c(..args) = circle(..args)
+    #let circ(pos, tint: white, ..args) = node(
+      pos,
+      align(center, box(baseline: -0.8em)[$times$]),
+      fill: tint,
+      stroke: 1pt + black,
+      shape: fletcher_circle,
+      radius: 2.5mm,
+      ..args,
+    )
+
+    #let text(pos, label) = node(pos, box(label, height: 20pt, width: 100pt), shape: rect, width: 30pt)
+
+    #let c_i = red
+    #let c_o = green
+    #let c_u = orange
+    #let c_d = blue.lighten(20%)
+    #let c_g = yellow
+    #let c_s = luma(80%)
+
+    #diagram(
+      spacing: 8pt,
+      cell-size: (19mm, 8mm),
+      edge-stroke: 1pt,
+      edge-corner-radius: 5pt,
+      mark-scale: 70%,
+
+      blob((0, 6), [Input], shape: house.with(angle: 30deg), tint: c_i),
+      edge("-|>"),
+      blob((0, 4), [Up projection \ $W_u$ (with bias)], width: 110pt, tint: c_u),
+      edge("-"),
+      blob((0, 2), [$sigma$], tint: c_s),
+      edge("-|>"),
+      blob((0, 0.75), [Down projection \ $W_d$ (with bias)], width: 110pt, tint: c_d),
+      edge("-|>"),
+      blob((0, -0.65), [Output], tint: c_o, corner-radius: 0pt),
+
+      blob((2, 6), [Input], shape: house.with(angle: 30deg), tint: red),
+      edge("-|>"),
+      edge((2, 6), (2, 4.95), "r,u", "--|>"),
+      blob((2, 4), [Up projection \ $W_u$], width: 110pt, tint: c_u),
+      edge("-"),
+      circ((2, 2)),
+      edge("-|>"),
+      blob((2, 0.75), [Down projection \ $W_d$], width: 110pt, tint: c_d),
+      edge("-|>"),
+      blob((2, -0.65), [Output], tint: c_o, corner-radius: 0pt),
+      blob((3, 4), [Gate projection \ $W_g$], width: 110pt, tint: c_g),
+      edge("--|>"),
+      blob((3, 2.8), [$sigma$], tint: c_s),
+      edge((3, 2.8), (3, 2), (2, 2), "--|>"),
+
+      text((0, 6.9), [Classic FFN]),
+      text((2.4, 6.9), [FFN with GLU]),
+    )
+  ],
+)
+```
 
 !!! note
     大部分资料认为 GLU 是一种激活函数，但这种说法个人认为有一点奇怪。个人更倾向于将整个 GLU 理解为第一个线性层的替代，而将 GLU 中的 「$\sigma(W_g \cdot x) \odot$」 这一部分理解为 $\sigma$ 的替代。）
