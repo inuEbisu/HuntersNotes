@@ -30,7 +30,6 @@ theme:
         icon: material/weather-sunny
         name: 切换至浅色模式
   font:
-    text: Noto Sans SC
     code: JetBrains Mono NL
   features:
     - announce.dismiss
