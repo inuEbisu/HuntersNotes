@@ -25,8 +25,8 @@
 }
 
 [data-md-color-scheme="default"][data-md-color-primary="brown"] {
-    --md-accent-fg-color: #8d6e62;
-    --md-accent-fg-color--transparent: #8d6e6233;
+    --md-accent-fg-color: #b48a7c;
+    --md-accent-fg-color--transparent: #b48a7c1a;
 }
 
 /* dark mode */
