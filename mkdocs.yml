@@ -126,7 +126,15 @@ markdown_extensions:
       generic: true
 
 nav:
-  - Home: index.md
+  - Home:
+      - index.md
+  - Computer Science:
+      - cs/index.md
+      - 高性能计算:
+          - HPC101 超算短学期:
+              - cs/hpc/hpc101/index.md
+              - cs/hpc/hpc101/riscv.md
+              - cs/hpc/hpc101/llm.md
   - Tools:
       - tools/index.md
       - tools/mkdocs.md
