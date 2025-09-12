@@ -74,6 +74,9 @@ plugins:
       enable_creation_date: true
   - statistics:
       page_check_metadata: comment
+  - mkdocs-simple-hooks:
+      hooks:
+        on_page_markdown: "hooks.typst:on_page_markdown"
   # - heti:
   #     disable_serve: false
 

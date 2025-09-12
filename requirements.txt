@@ -7,3 +7,4 @@ mkdocs-material
 mkdocs-material-extensions
 mkdocs-statistics-plugin
 mkdocs-pymdownx-material-extras
+mkdocs-simple-hooks
