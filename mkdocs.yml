@@ -58,23 +58,24 @@ theme:
     - toc.follow
   language: zh
 
-  plugins:
-    - glightbox:
-        - width: 80%
-    - search:
-        lang:
-          - en
-          - zh
-    - offline
-    - changelog
-    - git-revision-date-localized:
-        type: datetime
-        timezone: Asia/Shanghai
-        locale: zh
-        enable_creation_date: true
-    - statistics
-    # - heti:
-    #     disable_serve: false
+plugins:
+  - glightbox:
+      width: 80%
+  - search:
+      lang:
+        - en
+        - zh
+  - offline
+  - changelog
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+  - statistics:
+      page_check_metadata: comment
+  # - heti:
+  #     disable_serve: false
 
 extra:
   analytics:
