@@ -189,6 +189,9 @@ Source Code:
 
 ## LaTeX 公式
 
+!!! note
+    使用 KaTeX 进行渲染。
+
 假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : \, \, n \mapsto \sigma (n)$，使得
 
 $$
