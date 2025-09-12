@@ -103,6 +103,7 @@ markdown_extensions:
   - md_in_html
   - sane_lists
   - admonition
+  - footnotes
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
