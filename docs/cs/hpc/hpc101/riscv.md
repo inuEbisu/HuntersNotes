@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # RISC-V 向量化
 
 !!! abstract
