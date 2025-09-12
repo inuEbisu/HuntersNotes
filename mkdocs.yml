@@ -31,7 +31,7 @@ theme:
         name: 切换至浅色模式
   font:
     text: Noto Sans SC
-    code: JetBrains Mono
+    code: JetBrains Mono NL
   features:
     - announce.dismiss
     - navigation.instant
@@ -89,7 +89,7 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-  - https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap
+  - https://gcore.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono-nl.min.css
   - assets/css/custom.css
 
 extra_javascript:
