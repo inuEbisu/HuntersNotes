@@ -16,9 +16,11 @@ TODO
 
 From [图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/)：
 
-- Tim Roughgarden 的《算法详解》
+- [ ] Tim Roughgarden 的《算法详解》
   
     可用于入门与回顾 FDS 内容。
+
+- [Tian42chen的笔记](https://github.com/Tian42chen/Transcription-Malfunctioned/blob/main/_Finalized_Notes/ADS.pdf)。
 
 - 《数据结构与算法分析：C 语言描述》 Data Structures and Algorithm Analysis in C, [ 美 ] Mark Allen Weiss
   

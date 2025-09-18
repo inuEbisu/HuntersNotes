@@ -136,7 +136,7 @@ nav:
       - 算法与数据结构:
           - 高级数据结构与算法分析:
               - cs/ds/ads/index.md
-      - 硬件相关:
+      - 硬件三连:
           - 计算机组成:
               - cs/hardware/organization/index.md
       - 高性能计算:
