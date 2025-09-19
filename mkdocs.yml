@@ -129,9 +129,9 @@ markdown_extensions:
       generic: true
 
 nav:
-  - Home:
+  - 主页:
       - index.md
-  - Computer Science:
+  - 计算机:
       - cs/index.md
       - 算法与数据结构:
           - 高级数据结构与算法分析:
@@ -144,13 +144,19 @@ nav:
               - cs/hpc/hpc101/index.md
               - cs/hpc/hpc101/riscv.md
               - cs/hpc/hpc101/llm.md
-  - Tools:
+  - 数理:
+    - math_phys/index.md
+    - 概率论与数理统计:
+        - math_phys/probability/index.md
+    - 大学物理（乙）II:
+        - math_phys/phy2/index.md
+    - 大学物理实验:
+        - math_phys/phyexp/index.md
+  - 工具:
       - tools/index.md
       - tools/mkdocs.md
-  - Misc:
+  - 杂项:
       - misc/index.md
-      - 大学物理实验:
-          - misc/phyexp/index.md
       - 律制:
           - misc/intonation/index.md
           - misc/intonation/ch01.md
