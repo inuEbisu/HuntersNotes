@@ -131,6 +131,14 @@ markdown_extensions:
 nav:
   - 主页:
       - index.md
+  - 数理:
+      - math_phys/index.md
+      - 概率论与数理统计:
+          - math_phys/probability/index.md
+      - 大学物理（乙）II:
+          - math_phys/phy2/index.md
+      - 大学物理实验:
+          - math_phys/phyexp/index.md
   - 计算机:
       - cs/index.md
       - 算法与数据结构:
@@ -138,20 +146,12 @@ nav:
               - cs/ds/ads/index.md
       - 硬件三连:
           - 计算机组成:
-              - cs/hardware/organization/index.md
+              - cs/sys/organization/index.md
       - 高性能计算:
           - HPC101 超算短学期:
               - cs/hpc/hpc101/index.md
               - cs/hpc/hpc101/riscv.md
               - cs/hpc/hpc101/llm.md
-  - 数理:
-    - math_phys/index.md
-    - 概率论与数理统计:
-        - math_phys/probability/index.md
-    - 大学物理（乙）II:
-        - math_phys/phy2/index.md
-    - 大学物理实验:
-        - math_phys/phyexp/index.md
   - 工具:
       - tools/index.md
       - tools/mkdocs.md
