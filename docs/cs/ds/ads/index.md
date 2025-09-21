@@ -6,11 +6,20 @@
 
     - 课程代码：CS2045M
     - 学分：4.0
-    - 老师：刘金飞（挂名，实为陈林）
+    - 老师：毛宇尘
 
 ## 分数构成
 
-TODO
+1. Part 1 (<= 60 pts)
+
+    - Homework (10 pts)
+    - Midterm (10 pts)
+    - Projects (30 pts)
+    - Discussion (10 pts)
+    - Bonus (5 pts)
+
+2. Part 2: Final (40 pts)
+
 
 ## 参考资料
 
