@@ -20,10 +20,46 @@
 
 2. Part 2: Final (40 pts)
 
+??? note "Details"
+
+    Projects
+
+    - Each group has 2-3 members
+    - Choose 2 out of 8 proj
+    - Project 1 (20 pts)
+
+        - report (10 pts)
+        - presentation (10 pts)
+        - speaker is randomly choosen
+        - at most 3 groups for each proj
+
+    - Project 2 (10 pts)
+        - report only (10 pts)
+
+    Reports
+
+    - In English
+    - No more than 12 pages
+    - Font size: 12 pts
+    - Single space
+
+    Discussion
+
+    - Roughly 5 times
+    - in groups
+
+    Bonus
+
+    - Excellent Performance in Discussion (group)
+    - Excellent proj reports and pre (group)
+    - A Survey of Recent Advances (group)
+    - 1 pts per extra projs (personal) (myc doesn't recommend)
 
 ## 参考资料
 
 - [Tian42chen的笔记](https://github.com/Tian42chen/Transcription-Malfunctioned/blob/main/_Finalized_Notes/ADS.pdf)。
+
+- [wyh 的讲义](https://yhwu-is.github.io/Teach/tcs/ads/ads/)
 
 - [图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/)：
 
@@ -42,3 +78,7 @@
     - 《算法设计》 Algorithm Design, [ 美 ] Jon Kleinberg, Éva Tardos
     
         在这门课中，近似算法、局部搜索等章节基本参考本教材，并且也有部分习题出自本教材。写作非常清楚且令人感到舒适。
+
+小工具：
+
+- [VisuAlgo](https://visualgo.net/zh)
