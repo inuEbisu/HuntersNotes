@@ -151,6 +151,7 @@ $\epsilon$ 是防止除零的小常数。$\boldsymbol{\gamma} \in \mathbb{R}^d$ 
       stroke: 1pt + tint.darken(20%),
       shape: rect,
       corner-radius: 5pt,
+      inset: 0pt,
       ..args,
     )
 
