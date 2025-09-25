@@ -22,6 +22,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
+      - name: Install Source Han Sans SC
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y fontconfig unzip
+          curl -L -o /tmp/SourceHanSansSC.zip https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSansSC.zip
+          sudo mkdir -p /usr/local/share/fonts/opentype/source-han-sans-sc
+          sudo unzip -q /tmp/SourceHanSansSC.zip -d /usr/local/share/fonts/opentype/source-han-sans-sc
+          sudo fc-cache -f -v
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
