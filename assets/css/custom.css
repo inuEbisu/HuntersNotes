@@ -4,13 +4,13 @@
 
 .md-nav--secondary .md-nav__title {
     background: rgb(255 255 255 / 0%);
-    box-shadow: 0 0 .4rem .4rem rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0.4rem 0.4rem rgba(255, 255, 255, 0);
     position: relative;
 }
 
-.md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
     background: rgb(255 255 255 / 0%);
-    box-shadow: 0 0 .4rem .4rem rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0.4rem 0.4rem rgba(255, 255, 255, 0);
     position: relative;
 }
 
@@ -88,7 +88,7 @@ a:active .heimu {
 .heimu:active .new,
 .heimu .new:active,
 .new:active .heimu {
-    color: #BA0000 !important;
+    color: #ba0000 !important;
 }
 
 html {
@@ -97,6 +97,6 @@ html {
 
 /* arithmatex */
 
-.md-typeset div.arithmatex>* {
+.md-typeset div.arithmatex > * {
     padding: 0;
 }
