@@ -31,7 +31,7 @@ comment: true
 
 Source Code:
 
-```md
+````md
 
 === "C++"
 
@@ -50,7 +50,7 @@ Source Code:
     print("Hello World!")
     ```
 
-```
+````
 
 ### Tasklist 任务清单
 
@@ -76,7 +76,6 @@ Source Code:
 
     这里是一些提示。
 
-
 ```md
 !!! note
 
@@ -98,24 +97,24 @@ Source Code:
 ### 内联的用法
 
 !!! note inline
-    
+
     这是一个靠左侧的内联块。
 
 ```md
 !!! note inline
-    
+
     这是一个靠左侧的内联块。
 ```
 
 而且
 
 !!! note inline end
-    
+
     这是一个靠右侧的内联块。
 
 ```md
 !!! note inline end
-    
+
     这是一个靠右侧的内联块。
 ```
 
@@ -194,6 +193,7 @@ Source Code:
 ## LaTeX 公式
 
 !!! note
+
     使用 KaTeX 进行渲染。
 
 假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : \, \, n \mapsto \sigma (n)$，使得

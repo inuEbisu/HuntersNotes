@@ -10,7 +10,6 @@ comment: true
 
 <!-- !!! quote "WIP" -->
 
-
 <!-- <object data="./lab5.pdf" type="application/pdf" width="100%" height="800">
     </object> -->
 
@@ -97,9 +96,11 @@ $$
 $$
 
 其中
+
 $$
   \hat{\mu} = \frac{1}{d} \sum_{i=1}^{d} x_i,
 $$
+
 $$
   \hat{\sigma}^2 = \frac{1}{d} \sum_{i=1}^{d} (x_i - \mu)^2 + \epsilon,
 $$
@@ -225,7 +226,7 @@ $$
 $$
 
 !!! tip
-    对比之下，前面提到的经典 FFN 中的第一层线性层可以写作
+对比之下，前面提到的经典 FFN 中的第一层线性层可以写作
 
     $$
         \mathrm{FFN}_1(x) = \sigma(W_u \cdot x + b_u).
@@ -323,7 +324,7 @@ $$
 ```
 
 !!! note
-    大部分资料认为 GLU 是一种激活函数，但这种说法个人认为有一点奇怪。个人更倾向于将整个 GLU 理解为第一个线性层的替代，而将 GLU 中的 「$\sigma(W_g \cdot x) \odot$」 这一部分理解为 $\sigma$ 的替代。）
+大部分资料认为 GLU 是一种激活函数，但这种说法个人认为有一点奇怪。个人更倾向于将整个 GLU 理解为第一个线性层的替代，而将 GLU 中的 「$\sigma(W_g \cdot x) \odot$」 这一部分理解为 $\sigma$ 的替代。）
 
 SwiGLU 即 $\sigma = \mathrm{SiLU} = x \cdot \mathrm{Sigmoid}(x)$ 的 GLU；于是Qwen-3 中使用了 SwiGLU 的 FFN 实现可以写作
 
