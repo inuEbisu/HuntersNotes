@@ -1,0 +1,16 @@
+.git
+.github
+.sass-cache
+.DS_Store
+env/
+venv/
+venv-mkdocs/
+.env/
+
+site/
+
+mkdocs.yml
+# docs/assets/
+
+package*.json
+pnpm-lock.yaml
