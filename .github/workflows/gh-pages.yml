@@ -12,16 +12,43 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Typst
-        uses: typst-community/setup-typst@v4
+
+      # Git
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      # Set-up dependencies
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.1
+      - name: Setup requirements
+        run: |
+          pip install -r requirements.txt
+          pnpm install --frozen-lockfile
+
+      # Prettier check
+      - name: Markdown style check (prettier)
+        run: |
+          pnpm run format:check
+
+      # Build and deploy
       - name: Install Source Han Sans SC
         run: |
           sudo apt-get update -y
@@ -30,12 +57,11 @@ jobs:
           sudo mkdir -p /usr/local/share/fonts/opentype/source-han-sans-sc
           sudo unzip -q /tmp/SourceHanSansSC.zip -d /usr/local/share/fonts/opentype/source-han-sans-sc
           sudo fc-cache -f -v
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ github.env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
