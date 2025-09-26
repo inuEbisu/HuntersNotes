@@ -28,16 +28,16 @@ jobs:
           python-version: 3.x
           cache: pip
           cache-dependency-path: requirements.txt
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.1
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10.17.1
       - name: Setup requirements
         run: |
           pip install -r requirements.txt
@@ -60,7 +60,7 @@ jobs:
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ github.env.cache_id }}
+          key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
