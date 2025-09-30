@@ -152,6 +152,8 @@ nav:
               - cs/hpc/hpc101/index.md
               - cs/hpc/hpc101/riscv.md
               - cs/hpc/hpc101/llm.md
+      - 编程语言:
+          - cs/pl/c_smallbig.md
   - 工具:
       - tools/index.md
       - tools/mkdocs.md
