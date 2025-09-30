@@ -147,6 +147,9 @@ nav:
       - 硬件三连:
           - 计算机组成:
               - cs/sys/organization/index.md
+      - 人工智能:
+          - "CMU 10-414/714 Deep Learning Systems":
+              - cs/ai/dlsys/index.md
       - 高性能计算:
           - HPC101 超算短学期:
               - cs/hpc/hpc101/index.md
