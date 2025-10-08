@@ -147,11 +147,15 @@ nav:
       - 硬件三连:
           - 计算机组成:
               - cs/sys/organization/index.md
+          - "NJU 计算机系统基础":
+              - cs/sys/njuicspa/index.md
+          - "NJU 操作系统":
+              - cs/sys/njuos/index.md
       - 人工智能:
           - "CMU 10-414/714 Deep Learning Systems":
               - cs/ai/dlsys/index.md
       - 高性能计算:
-          - HPC101 超算短学期:
+          - "HPC101 超算短学期":
               - cs/hpc/hpc101/index.md
               - cs/hpc/hpc101/riscv.md
               - cs/hpc/hpc101/llm.md
