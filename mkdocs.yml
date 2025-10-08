@@ -149,6 +149,8 @@ nav:
               - cs/sys/organization/index.md
           - "NJU 计算机系统基础":
               - cs/sys/njuicspa/index.md
+              - cs/sys/njuicspa/pa0.md
+              - cs/sys/njuicspa/pa1.md
           - "NJU 操作系统":
               - cs/sys/njuos/index.md
       - 人工智能:
