@@ -144,7 +144,7 @@ nav:
       - 算法与数据结构:
           - 高级数据结构与算法分析:
               - cs/ds/ads/index.md
-      - 硬件三连:
+      - 计算机系统:
           - 计算机组成:
               - cs/sys/organization/index.md
           - "NJU 计算机系统基础":
