@@ -9,6 +9,8 @@
 
 !!! quote "WIP"
 
+    预计会放出电子版实验报告。
+
 ## 参考资料
 
 - [图灵班学习指南](https://zju-turing.github.io/TuringCourses/math_phys/physics_experiment1/)（普物实验与大物实验相差不大）
