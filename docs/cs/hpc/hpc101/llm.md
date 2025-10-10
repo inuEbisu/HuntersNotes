@@ -8,10 +8,13 @@ comment: true
 
     对应 [Lab 5: TinyLLM](https://hpc101.zjusct.io/lab/Lab5-TinyLLM/)。
 
-<!-- !!! quote "WIP" -->
+!!! info "推荐阅读"
 
-<!-- <object data="./lab5.pdf" type="application/pdf" width="100%" height="800">
-    </object> -->
+    这部分的实验文档对于零基础而言可能会很痛苦，学习相关知识后体验会更好。
+
+    - 3Blue1Brown's Deep Learning: Chapter [1](https://www.bilibili.com/video/BV1bx411M7Zx), [2](https://www.bilibili.com/video/BV1Ux411j7ri), [3](https://www.bilibili.com/video/BV16x411V7Qg), [4](https://www.bilibili.com/video/BV16x411V7Qg?p=2), [5](https://www.bilibili.com/video/BV13z421U7cs), [6](https://www.bilibili.com/video/BV1TZ421j7Ke) & [7](https://www.bilibili.com/video/BV1aTxMehEjK)
+    - 3Blue1Brown's LLM: [【官方双语】大语言模型的简要解释](https://www.bilibili.com/video/BV1xmA2eMEFF)
+    - [《动手学深度学习》](https://zh.d2l.ai/)
 
 ## Decoder Layer Overview
 
