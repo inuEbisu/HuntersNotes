@@ -1,5 +1,9 @@
 # PA0
 
+!!! abstract
+
+    PA0 的实验心得。
+
 在今年 5 月份时我已经安装了 Manjaro Linux 并日用之，于是我最初认为我似乎可以跳过该环节。我最终没有跳过，在暑假末完成了 PA0，顺带完成了此前跳过的 [MIT The Missing Semester](https://missing.csail.mit.edu/)；这件事我大概是做对了，收获良多。
 
 完成 PA0 时并没有写实验心得，这段话其实是 10 月份回来补的了。简单补一下现在对我印象深刻的——于是可以大言不惭地说—— takeaways 吧：
