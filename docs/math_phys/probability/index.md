@@ -31,3 +31,4 @@
 
 - 计划听黄炜老师的课程。
 - 浙江大学《概率论与数理统计》教科书。
+- [概率论与数理统计 - Savia 的外装代脑](https://savia7582.github.io/Exterior/Math/P%26S/0/)
