@@ -1,5 +1,6 @@
 ---
 comment: true
+statistics: True
 ---
 
 # 主页
@@ -32,3 +33,10 @@ comment: true
 「猎人笔记」的名字来自于屠格涅夫的随笔集《猎人笔记》。
 
 不成体系的东西或许可以去[犬窝闲谭](https://inuebisu.cn)逛逛！
+
+## 信息
+
+!!! info "统计"
+
+    本站目前共 {{ pages }} 页，{{ words }} 字，{{ codes }} 行代码，{{ images }} 张图片。
+
