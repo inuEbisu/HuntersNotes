@@ -58,13 +58,16 @@
 
 ## 参考资料
 
-- [Tian42chen的笔记](https://github.com/Tian42chen/Transcription-Malfunctioned/blob/main/_Finalized_Notes/ADS.pdf)
+- [yhwu 的讲义](https://yhwu-is.github.io/Teach/tcs/ads/ads/)
+    - 学习使用。
 
-- [wyh 的讲义](https://yhwu-is.github.io/Teach/tcs/ads/ads/)
+- [Tian42chen的笔记](https://github.com/Tian42chen/Transcription-Malfunctioned/blob/main/_Finalized_Notes/ADS.pdf)
+    - 计划用于考前补天。
 
 - [Xecades 的笔记](https://note.xecades.xyz/cs/ads)
+    - 含数据结构部分简要。
 
-- 来自[图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/)的推荐书籍：
+- 来自[图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/)（yhwu）的推荐书籍：
     - Tim Roughgarden 的《算法详解》
 
         入门书籍，覆盖了 FDS 和 ADS 的较多内容，可用于回顾 FDS 内容。
