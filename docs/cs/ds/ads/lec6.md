@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Lec 6. Backtracing
 
 ## Mathematics Callback

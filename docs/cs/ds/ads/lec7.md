@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Lec 7. Divide and Conquer
 
 ## Divide and Conquer
@@ -62,6 +66,7 @@ $$
 相较于二路，使用 $k$ 路的好处在于递归树变矮，坏处在于每一层的合并工作变重。这里我们看到二者恰好抵消，最终总时间 $T(n, k) = O(n \log{n})$，与 $k$ 无关。
 
 !!! tip
+
     在 In-Memory Sort 中，K-way Merge Sort 的常数很大，因为其需要维护一个最小堆。
 
     K-way Merge Sort 通常用于 External Sort：当数据在硬盘上时，算法的瓶颈在于硬盘 I/O（相比之下在内存中维护一个最小堆的成本可忽略不计），而树高 $h$ 决定了算法需要完整读写数据多少遍；此时我们希望减小树高 $h$，为此我们应使用大 $k$。
