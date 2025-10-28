@@ -4,7 +4,9 @@ comment: true
 
 # MkDocs
 
-写 MkDocs 常常忘记语法，于是这或许是自用的 Cheatsheet。
+!!! abstract
+
+    自用的 MkDocs Cheatsheet。
 
 ## Pymdownx
 
