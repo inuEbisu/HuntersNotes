@@ -13,7 +13,7 @@ comment: true
 故其通常满足形如下式的式子：
 
 $$
-T(N) = a T(\frac{n}{b}) + f(N).
+T(n) = a T(\frac{n}{b}) + f(n).
 $$
 
 ## The Closest Points Problem
