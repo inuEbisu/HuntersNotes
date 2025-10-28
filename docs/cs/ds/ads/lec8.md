@@ -8,6 +8,14 @@ comment: true
 >
 > <p style="text-align: right">—— *Algorithm Illuminated*, [ 美 ] Tim Roughgarden</p>
 
+## Fibonacci Numbers
+
+[数楼梯](https://www.luogu.com.cn/problem/P1255)问题。
+
+$$
+F(n) = F(n - 1) + F(n - 2).
+$$
+
 ## Ordering Matrix Multiplications
 
 !!! quote "WIP"
