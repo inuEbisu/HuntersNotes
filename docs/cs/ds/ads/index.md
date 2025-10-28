@@ -68,7 +68,7 @@
     - 含数据结构部分简要。
 
 - 来自[图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/)（yhwu）的推荐书籍：
-    - Tim Roughgarden 的《算法详解》
+    - 《算法详解》 Algorithm Illuminated, [ 美 ] Tim Roughgarden
 
         入门书籍，覆盖了 FDS 和 ADS 的较多内容，可用于回顾 FDS 内容。
 
