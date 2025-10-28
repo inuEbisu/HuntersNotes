@@ -171,6 +171,7 @@ nav:
   - 工具:
       - tools/index.md
       - tools/mkdocs.md
+      - tools/writing.md
   - 杂项:
       - misc/index.md
       - 律制:
