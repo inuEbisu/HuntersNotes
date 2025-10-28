@@ -49,14 +49,14 @@ $$
 
 此时主定理不适用，我们需要画递归树进行求解。
 
-递归树的高度 $h = \log_{k}{n}$，第 $i$ 层有 $k^i$ 个子问题，每个子问题的工作量为 $O(\frac{n}{k^i} \log{k})$。
+递归树的高度 $h = \log_{k}{n}$，第 $i$ 层（根节点为第 0 层）有 $k^i$ 个子问题，每个子问题的工作量为 $O(\frac{n}{k^i} \log{k})$。
 
 故总时间
 
 $$
 \begin{align*}
-  T(n, k) &= \sum_{i = 1}^{h} k^i \cdot O(\frac{n}{k^i} \log{k}) \\
-          &= \sum_{i = 1}^{h} O(n \log{k}) \\
+  T(n, k) &= \sum_{i = 0}^{h} k^i \cdot O(\frac{n}{k^i} \log{k}) \\
+          &= \sum_{i = 0}^{h} O(n \log{k}) \\
           &= \log_{k}{n} \cdot O(n \log{k}) \\
           &= \frac{\log{n}}{\log{k}} \cdot O(n \log{k}) \\
           &= O(n \log{n}).
