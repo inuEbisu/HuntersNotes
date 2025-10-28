@@ -10,7 +10,7 @@ comment: true
 2. Conquer;
 3. Combine.
 
-故其通常满足形如下式的式子：
+分治法递归的时间复杂度递推公式通常具有如下形式：
 
 $$
 T(n) = a T(\frac{n}{b}) + f(n).
