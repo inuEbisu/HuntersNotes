@@ -84,6 +84,8 @@
 
         在这门课中，近似算法、局部搜索等章节基本参考本教材，并且也有部分习题出自本教材。写作非常清楚且令人感到舒适。
 
+- [资源 - Starstone3's bed](https://starstone3.github.io/incourse/ADS/resource/)
+
 小工具：
 
 - [VisuAlgo](https://visualgo.net/zh)
