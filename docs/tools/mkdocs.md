@@ -2,7 +2,7 @@
 comment: true
 ---
 
-# MkDocs
+# MkDocs Cheatsheet
 
 !!! abstract
 
