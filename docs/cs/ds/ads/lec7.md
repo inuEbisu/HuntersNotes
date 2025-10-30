@@ -18,7 +18,16 @@ $$
 
 ## The Closest Points Problem
 
-!!! quote "WIP"
+Lemma: In the `ClosestSplitPair` subroutine, suppose $(p, q)$ is a split pair with $d(p, q) < \delta$, where is the smallest distance between a left pair or right pair of points. Then:
+
+- (a) $p$ and $q$ will be included in the set $S_y$;
+- (b) at most six points of $S_y$ have a $y$-coordinate in between those of $p$ and $q$.
+
+(b) 的原因如下图。
+
+![](lec7/box.png)
+
+这是因为假设有两个点 $a, b$ 同时处于一个格子中，则 $d(a, b) \leq \frac{\delta}{\sqrt{2}} < \delta$，与 $\delta$ 的定义矛盾。
 
 ## The Master Theorem
 
