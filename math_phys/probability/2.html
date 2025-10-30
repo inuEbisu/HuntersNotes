@@ -773,48 +773,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    <span class="md-ellipsis">
-      其他分布
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="其他分布">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gamma" class="md-nav__link">
-    <span class="md-ellipsis">
-      \(\Gamma\) 分布
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#weibull" class="md-nav__link">
-    <span class="md-ellipsis">
-      二参数 Weibull 分布
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#beta" class="md-nav__link">
-    <span class="md-ellipsis">
-      \(\beta\) 分布
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -2311,48 +2269,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
-    <span class="md-ellipsis">
-      其他分布
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="其他分布">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gamma" class="md-nav__link">
-    <span class="md-ellipsis">
-      \(\Gamma\) 分布
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#weibull" class="md-nav__link">
-    <span class="md-ellipsis">
-      二参数 Weibull 分布
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#beta" class="md-nav__link">
-    <span class="md-ellipsis">
-      \(\beta\) 分布
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -2584,43 +2500,6 @@ F(x) =
 <div class="arithmatex">\[
 P\{X &gt; s + t \mid X &gt; s\} = P\{X &gt; t\}.
 \]</div>
-<h3 id="_12">其他分布<a class="headerlink" href="#_12" title="Permanent link">¶</a></h3>
-<p>考试不要求。</p>
-<h4 id="gamma"><span class="arithmatex">\(\Gamma\)</span> 分布<a class="headerlink" href="#gamma" title="Permanent link">¶</a></h4>
-<p>设随机变量 <span class="arithmatex">\(X\)</span> 具有密度函数</p>
-<div class="arithmatex">\[
-f(x) =
-\begin{cases}
-    \dfrac{\lambda e^{-\lambda x}(\lambda x)^{\alpha-1}}{\Gamma(\alpha)}, &amp; x &gt; 0, \\
-    0, &amp; x \leq 0,
-\end{cases}
-\]</div>
-<p>其中参数 <span class="arithmatex">\(\alpha &gt; 0, \lambda &gt; 0\)</span>，则称 <span class="arithmatex">\(X\)</span> 服从参数为 <span class="arithmatex">\((\alpha, \lambda)\)</span> 的 <span class="arithmatex">\(\Gamma\)</span> 分布（Gamma distribution），记为 <span class="arithmatex">\(X \sim \Gamma(\alpha, \lambda)\)</span>。</p>
-<p>其中 <span class="arithmatex">\(\Gamma(\alpha) = \displaystyle\int_{0}^{+\infty} e^{-x} x^{\alpha-1} \mathrm{d}x\)</span> 为伽马函数。伽马函数是阶乘函数在实数域和复数域上的解析延拓；它具有以下性质：</p>
-<ul>
-<li><span class="arithmatex">\(\Gamma(\alpha) = (\alpha-1)\Gamma(\alpha-1)\)</span>；</li>
-<li>当 <span class="arithmatex">\(n\)</span> 为正整数时，有 <span class="arithmatex">\(\Gamma(n) = (n-1)!\)</span>。</li>
-</ul>
-<h4 id="weibull">二参数 Weibull 分布<a class="headerlink" href="#weibull" title="Permanent link">¶</a></h4>
-<p>设随机变量 <span class="arithmatex">\(X\)</span> 具有密度函数</p>
-<div class="arithmatex">\[
-f(x) =
-\begin{cases}
-    \dfrac{\gamma}{\alpha}\left(\dfrac{x}{\alpha}\right)^{\gamma-1} e^{-(x/\alpha)^{\gamma}}, &amp; x &gt; 0, \\
-    0, &amp; x \leq 0,
-\end{cases}
-\]</div>
-<p>其中参数 <span class="arithmatex">\(\alpha &gt; 0, \gamma &gt; 0\)</span>，则称 <span class="arithmatex">\(X\)</span> 服从参数为 <span class="arithmatex">\((\alpha, \gamma)\)</span> 的二参数 Weibull 分布（Weibull distribution）。</p>
-<h4 id="beta"><span class="arithmatex">\(\beta\)</span> 分布<a class="headerlink" href="#beta" title="Permanent link">¶</a></h4>
-<p>设随机变量 <span class="arithmatex">\(X\)</span> 具有密度函数</p>
-<div class="arithmatex">\[
-f(x) =
-\begin{cases}
-\dfrac{\Gamma(a+b)}{\Gamma(a)\Gamma(b)} x^{a-1}(1-x)^{b-1}, &amp; 0 &lt; x &lt; 1, \\
-0, &amp; \text{otherwise},
-\end{cases}
-\]</div>
-<p>其中参数 <span class="arithmatex">\(a &gt; 0, b &gt; 0\)</span>，则称 <span class="arithmatex">\(X\)</span> 服从参数为 <span class="arithmatex">\((a, b)\)</span> 的 <span class="arithmatex">\(\beta\)</span> 分布（Beta distribution），记为 <span class="arithmatex">\(X \sim \beta(a, b)\)</span>。</p>
 
 
 
@@ -2643,7 +2522,7 @@ f(x) =
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2025年10月26日 11:02:45 CST">2025年10月26日 11:02:45</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="2025年10月30日 13:44:08 CST">2025年10月30日 13:44:08</span>
   </span>
 
     
