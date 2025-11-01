@@ -16,6 +16,43 @@ $$
 T(n) = a T(\frac{n}{b}) + f(n).
 $$
 
+## The Master Theorem
+
+对于递推式
+
+$$
+T(n) = aT(\frac{n}{b}) + f(n), a \ge 1, b \ge 2,
+$$
+
+1.  若存在某个 $\epsilon > 0$，使得 $f(n) = O(n^{\log_b a - \epsilon})$，则 $T(n) = \Theta(n^{\log_b a})$；
+
+2.  若 $f(n) = \Theta(n^{\log_b a})$，则 $T(n) = \Theta(n^{\log_b a} \log n)$；
+
+3.  若存在某个 $\epsilon > 0$，使得 $f(n) = \Omega(n^{\log_b a + \epsilon})$，且对某个常数 $c < 1$ 和所有足够大的 $n$ 有 $a f(n/b) \leq c f(n)$，则 $T(n) = \Theta(f(n))$。
+
+主定理可使用递归树进行证明，详见《算法导论》对应章节。
+
+!!! tip
+
+    以下是一个更强的版本。
+
+    对于递推式
+
+    $$
+    T(n) = aT(\frac{n}{b}) + \Theta(n^k \log^p n),
+    $$
+
+    其中 $a \ge 1, b > 1, k \ge 0$，$p$ 为任意实数，
+
+    1. 若 $a > b^k$，则 $T(n) = \Theta(n^{\log_b a}).$
+    2. 若 $a = b^k$：
+        * (a) 若 $p > -1$，则 $T(n) = \Theta(n^k \log^{p+1} n);$
+        * (b) 若 $p = -1$，则 $T(n) = \Theta(n^k \log \log n);$
+        * (c) 若 $p < -1$，则 $T(n) = \Theta(n^k).$
+    3. 若 $a < b^k$：
+        * (a) 若 $p \ge 0$，则 $T(n) = \Theta(n^k \log^p n);$
+        * (b) 若 $p < 0$，则 $T(n) = \Theta(n^k).$
+
 ## The Closest Points Problem
 
 Lemma: In the `ClosestSplitPair` subroutine, suppose $(p, q)$ is a split pair with $d(p, q) < \delta$, where is the smallest distance between a left pair or right pair of points. Then:
@@ -36,10 +73,6 @@ Lemma: In the `ClosestSplitPair` subroutine, suppose $(p, q)$ is a split pair wi
     - 当前研究的点所在的一侧的所有点都完全可以不考虑，例如当前我们循环到了一个在左半边的点，那么整个左半边的点都不需要考虑，只需要考虑右半边 4 个格子最多的 4 个点。
 
     - 还可以进一步将 4 这个数字降为 3。因为每在右半边放一个点，那么在右半边，以这个点为圆心半径为 $\delta$ 的圆内不可能再有另一个点；最差的情况就是有四个这样的圆心，此时四个圆心在右半边区域的四个角上，这时找三个足够（其实就是 $(0, 0)$ 最好）；而其它情况不可能有四个圆心，最多三个圆心，找三个也足够。
-
-## The Master Theorem
-
-!!! quote "WIP"
 
 ## K-way Merge Sort
 
