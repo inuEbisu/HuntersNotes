@@ -16,9 +16,27 @@ $$
 T(n) = a T(\frac{n}{b}) + f(n).
 $$
 
+## Recursion Tree
+
+设
+
+$$
+T(n) = a T(\frac{n}{b}) + f(n),
+$$
+
+则
+
+$$
+T(n) = \Theta(n^{\log_b a}) + \sum_{i=0}^{\log_b n - 1} a^i f(\frac{n}{b^i}).
+$$
+
+![](lec7/recursion_tree.png)
+
 ## The Master Theorem
 
-对于递推式
+在此基础上使用一些数学（详见《算法导论》对应章节），可得主定理：
+
+对于
 
 $$
 T(n) = aT(\frac{n}{b}) + f(n), a \ge 1, b \ge 2,
@@ -29,8 +47,6 @@ $$
 2.  若 $f(n) = \Theta(n^{\log_b a})$，则 $T(n) = \Theta(n^{\log_b a} \log n)$；
 
 3.  若存在某个 $\epsilon > 0$，使得 $f(n) = \Omega(n^{\log_b a + \epsilon})$，且对某个常数 $c < 1$ 和所有足够大的 $n$ 有 $a f(n/b) \leq c f(n)$，则 $T(n) = \Theta(f(n))$。
-
-主定理可使用递归树进行证明，详见《算法导论》对应章节。
 
 !!! tip
 
