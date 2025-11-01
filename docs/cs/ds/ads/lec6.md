@@ -4,7 +4,7 @@ comment: true
 
 # Lec 6. Backtracing
 
-## Mathematics Callback
+## 一些数学
 
 !!! tip
 
