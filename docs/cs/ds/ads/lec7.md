@@ -16,6 +16,10 @@ $$
 T(n) = a T(\frac{n}{b}) + f(n).
 $$
 
+## Substitution
+
+即猜证。
+
 ## Recursion Tree
 
 设
