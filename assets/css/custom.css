@@ -31,6 +31,11 @@
 
 /* dark mode */
 
+[data-md-color-primary="black"] .md-header,
+[data-md-color-primary="black"] .md-tabs {
+    background-color: #1c1c1c;
+}
+
 [data-md-color-scheme="slate"][data-md-color-primary="black"] {
     --md-default-bg-color: #161616;
     --md-default-bg-color--light: #161616;
