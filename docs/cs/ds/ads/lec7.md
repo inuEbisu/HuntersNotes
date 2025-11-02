@@ -18,7 +18,15 @@ $$
 
 ## Substitution
 
+!!! info "推荐阅读"
+
+    - [Lec 7: Divide and Conquer - NoughtQ 的笔记本](https://note.noughtq.top/algorithms/ads/7#substitution)
+
 即猜证。
+
+Must prove the exact form.
+
+做题时有换元的技巧。
 
 ## Recursion Tree
 
