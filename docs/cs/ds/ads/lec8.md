@@ -18,7 +18,17 @@ $$
 
 ## Ordering Matrix Multiplications
 
-!!! quote "WIP"
+问题：以何种顺序计算 $n$ 个矩阵的乘积，可以使计算时间最小？
+
+假设我们需计算 $n$ 个矩阵 $M_1 \times M_2 \times \cdots \times M_n$ 的乘积，其中 $M_i$ 是一个 $r_{i-1} \times r_i$ 矩阵；计算 $M_i \times M_{i+1}$ 的代价为 $r_{i-1}r_ir_{i+1}$。令 $m_{ij}$ 表示计算 $M_i \times M_{i+1} \times \cdots \times M_j$ 的最优代价，则
+
+$$
+m_{ij} = 
+\begin{cases} 
+0 & \text{if } i = j, \\
+\min\limits_{i \leq l < j} \{ m_{il} + m_{(l+1)j} + r_{i-1}r_l r_j \} & \text{if } j > i.
+\end{cases}
+$$
 
 ## Optimal Binary Search Tree
 
