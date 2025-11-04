@@ -16,6 +16,16 @@ comment: true
 
 - 子问题重叠。
 
+我们通常按如下 4 个步骤来设计一个动态规划算法：
+
+1. 刻画一个最优解的结构特征；
+
+2. 递归地定义最优解的值；
+
+3. 计算最优解的值，通常采用自底向上的方法；
+
+4. 利用计算出的信息构造一个最优解。
+
 ## Fibonacci Numbers
 
 [数楼梯](https://www.luogu.com.cn/problem/P1255)问题。
@@ -39,6 +49,20 @@ m_{ij} =
 $$
 
 ## Optimal Binary Search Tree
+
+最优二叉搜索树：给定 $N$ 个单词 $w_1 < w_2 < \cdots < w_N$，每个单词 $w_i$ 被搜索的概率为 $p_i$。将这些单词排列在二叉搜索树中，以最小化期望总访问时间
+
+$$
+T(N) = \sum_{i=1}^{N} p_i (1 + d_i).
+$$
+
+设 $c_{ij}$ 为 $w_i, \ldots, w_j$ 的最小代价；规定 $c_{ii} = p_i$，且当 $j > i$ 时 $c_{ij} = 0$；则
+
+$$
+c_{ij} = \min_{i \leq l \leq j} \{ c_{i, l - 1} + c_{l + 1, j} \} + \sum_{k = i}^{j} p_k.
+$$
+
+时间复杂度为 $O(N^3)$；使用 Knuth 优化后可达 $O(N^2)$。
 
 !!! quote "WIP"
 
