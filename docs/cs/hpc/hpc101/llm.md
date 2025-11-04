@@ -48,7 +48,7 @@ Qwen3 Decoder Layer 是一个标准的 Transformer 的 Decoder 架构，在此�
     // #let c(..args) = circle(..args)
     #let circ(pos, tint: white, ..args) = node(
       pos,
-      align(center, box(baseline: -0.8em)[$+$]),
+      align(center, box(baseline: -0.2em)[$+$]),
       fill: tint,
       stroke: 1pt + black,
       shape: fletcher_circle,
@@ -271,7 +271,7 @@ $$
     // #let c(..args) = circle(..args)
     #let circ(pos, tint: white, ..args) = node(
       pos,
-      align(center, box(baseline: -0.8em)[$times$]),
+      align(center, box(baseline: -0.2em)[$times$]),
       fill: tint,
       stroke: 1pt + black,
       shape: fletcher_circle,
