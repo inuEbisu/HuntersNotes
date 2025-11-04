@@ -58,7 +58,7 @@ $$
 
 !!! info "推荐阅读"
 
-    - OI Wiki: [Floyd 算法](https://oi-wiki.org/graph/shortest-path/#floyd-%E7%AE%97%E6%B3%95)
+    - [Floyd 算法 - OI Wiki](https://oi-wiki.org/graph/shortest-path/#floyd-%E7%AE%97%E6%B3%95)
 
 ## 0-1 Knapsack Problem
 
