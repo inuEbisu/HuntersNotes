@@ -8,9 +8,29 @@ comment: true
 
     自用的 MkDocs Cheatsheet。
 
-## Pymdownx
+## Code Block
 
-简单记录一下扩展 `pymdownx` 的用法。
+```cpp title="hello.c" hl_lines="1 3-6" linenums="42"
+#include <iostream>
+
+int main(void) {
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+```
+
+````md
+```cpp title="hello.c" hl_lines="1 3-6" linenums="2"
+#include <iostream>
+
+int main(void) {
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+```
+````
+
+## Pymdownx
 
 ### Tabbed 选项卡
 
@@ -69,8 +89,6 @@ Source Code:
 ```
 
 ## Admonitions
-
-简单记录一下扩展 `admonition` 的用法。
 
 ### 通常的用法
 
