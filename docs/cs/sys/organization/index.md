@@ -27,8 +27,13 @@
 ## 参考资料
 
 - [图灵班学习指南遗产](https://zju-turing.github.io/TuringCoursesGrave/major_basic/computer_organization/#_5)
+
 - 计算机系统贯通课程实验文档 [I](https://zju-sys.pages.zjusct.io/sys1/sys1-sp25/) / [II](https://zju-sys.pages.zjusct.io/sys2/sys2-fa25/)
     - 其中对 Verilog 的讲解等内容很有参考价值
+
+- [USTC Digital Lab 2025](https://soc.ustc.edu.cn/Digital/)
+
+- [USTC Digital Lab Pro 2025](https://soc.ustc.edu.cn/Digital-Pro/)
 
 - [计算机组成 - NoughtQ 的笔记本](https://note.noughtq.top/system/co/)
     - 似乎可以代替 PPT 上课使用
