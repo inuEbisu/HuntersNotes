@@ -26,6 +26,10 @@
 
 ## 参考资料
 
+!!! tip
+
+    这个人上学期没有学数逻，这是他的计组学习路径发生的变化……
+
 - [图灵班学习指南遗产](https://zju-turing.github.io/TuringCoursesGrave/major_basic/computer_organization/#_5)
 
 - 计算机系统贯通课程实验文档 [I](https://zju-sys.pages.zjusct.io/sys1/sys1-sp25/) / [II](https://zju-sys.pages.zjusct.io/sys2/sys2-fa25/)
