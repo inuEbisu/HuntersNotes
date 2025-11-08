@@ -105,3 +105,11 @@ html {
 .md-typeset div.arithmatex > * {
     padding: 0;
 }
+
+/* figure */
+
+.md-figure figcaption {
+    font-size: 0.85em;
+    font-style: normal;
+    color: #777;
+}
