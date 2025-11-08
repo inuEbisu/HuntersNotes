@@ -42,7 +42,10 @@ $$
 T(n) = \Theta(n^{\log_b a}) + \sum_{i=0}^{\log_b n - 1} a^i f(\frac{n}{b^i}).
 $$
 
-![](lec7/recursion_tree.png)
+<figure class="md-figure">
+    <img src="lec7/recursion_tree.png" alt="lec7/recursion_tree.png" />
+    <figcaption>使用递归树进行证明；截自《算法导论》。</figcaption>
+</figure>
 
 ## The Master Theorem
 
@@ -88,9 +91,10 @@ Lemma: In the `ClosestSplitPair` subroutine, suppose $(p, q)$ is a split pair wi
 - (a) $p$ and $q$ will be included in the set $S_y$;
 - (b) at most six points of $S_y$ have a $y$-coordinate in between those of $p$ and $q$.
 
-(b) 的原因如下图。
-
-![](lec7/box.png)
+<figure class="md-figure">
+    <img src="lec7/box.png" alt="lec7/box.png" />
+    <figcaption>以上的 (b) 成立的原因；截自 <i>Algorithm Illuminated</i>。</figcaption>
+</figure>
 
 这是因为假设有两个点 $a, b$ 同时处于一个格子中，则 $d(a, b) \leq \frac{\delta}{\sqrt{2}} < \delta$，与 $\delta$ 的定义矛盾。
 
