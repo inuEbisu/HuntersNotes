@@ -20,8 +20,6 @@ comment: true
 
 Qwen3 Decoder Layer 是一个标准的 Transformer 的 Decoder 架构，在此基础上 Layer Norm 部分使用了 RMS Norm。
 
-以下是一张简图：
-
 ```typst
 #import "@preview/cetz:0.4.1"
 #import "@preview/note-me:0.5.0": *
@@ -129,8 +127,6 @@ $\epsilon$ 是防止除零的小常数。$\boldsymbol{\gamma} \in \mathbb{R}^d$ 
 首先需要了解 Multi-head Attention 与其变体 Multi-query Attention。MQA 在 MHA 的基础上，让所有的头之间共享同一份 $K, V$，每个头只单独保留了一份 $Q$，节省了大量 $K, V$。
 
 而 GQA 实则是 MHA 与 MQA 的一个中间态，它选择的是使用 $n$ 份 $Q$ 对应一份 $K, V$。也就是说 GQA-1 即为 MHA，GQA-$n$ 即为 MQA。GQA 在节省 $K, V$ 的同时，且在实践中性能仍与经典的 MHA 相近。
-
-以下简单地对比 MHA, MQA 与 GQA：
 
 ```typst
 #import "@preview/cetz:0.4.1"
@@ -241,8 +237,6 @@ $$
 $$
   \mathrm{FFN}'(x) = W_d \cdot \mathrm{GLU}(x) = W_d \cdot (\sigma(W_g \cdot x) \odot (W_u \cdot x)).
 $$
-
-以下是经典 FFN 与 FFN with GLU 一个简单的对比：
 
 ```typst
 #import "@preview/cetz:0.4.1"
