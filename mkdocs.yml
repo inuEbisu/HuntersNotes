@@ -154,6 +154,7 @@ nav:
           - 计算机组成:
               - cs/sys/organization/index.md
               - cs/sys/organization/ch1.md
+              - cs/sys/organization/ch2.md
           - "NJU 计算机系统基础":
               - cs/sys/njuicspa/index.md
               - cs/sys/njuicspa/pa0.md
