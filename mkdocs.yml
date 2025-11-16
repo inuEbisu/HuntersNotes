@@ -60,6 +60,8 @@ theme:
 plugins:
   - glightbox:
       width: 80%
+      skip_classes:
+        - off-glb
   - search:
       lang:
         - en
@@ -90,6 +92,7 @@ extra_css:
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
   - https://gcore.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono-nl.min.css
   - assets/css/custom.css
+  - assets/css/card.css
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
