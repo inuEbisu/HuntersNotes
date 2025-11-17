@@ -2,7 +2,6 @@
  * https://github.com/TonyCrane/note/blob/master/docs/css/card.css
  */
 
-
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -11,7 +10,7 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #FEFEFE;
+    background-color: #fefefe;
     background-clip: border-box;
     border: 0.5px solid #606060;
     margin-bottom: 1em;
@@ -57,7 +56,7 @@
     flex-direction: row;
     align-items: center;
     padding: 0.2em 1em;
-    transition: background-color .3s cubic-bezier(.4, 0, .2, 1);
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .file-block:hover {
@@ -97,7 +96,10 @@
     display: inline-block;
     font-weight: 700;
     padding: 0.25em 0.5em;
-    transition: color .3s, background-color .3s, border-color .3s !important;
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        border-color 0.3s !important;
 }
 
 .down-button:is(:focus, :hover) {
