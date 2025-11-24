@@ -57,10 +57,10 @@
 
 /* image border-radius and shadow */
 
-img:not([src$=".svg"]) {
+/* img:not([src$=".svg"]) {
     border-radius: 5pt;
     box-shadow: var(--md-shadow-z2);
-}
+} */
 
 /* heimu moegirl */
 
