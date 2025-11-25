@@ -38,6 +38,8 @@
 
 实验部分可参考：
 
+- [计算机组成实验部分 - WintermelonC Docs](https://wintermelonc.github.io/WintermelonC_Docs/zju/compulsory_courses/computer_organization/lab/)
+
 - 计算机系统贯通课程实验文档 [I](https://zju-sys.pages.zjusct.io/sys1/sys1-sp25/) / [II](https://zju-sys.pages.zjusct.io/sys2/sys2-fa25/)
 
 - [USTC Digital Lab 2025](https://soc.ustc.edu.cn/Digital/)
