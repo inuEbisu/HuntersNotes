@@ -179,6 +179,7 @@ nav:
       - ctf/index.md
       - 比赛题解:
           - ctf/zjuctf2025.md
+          - ctf/sjtuctf2025.md
   - 工具:
       - tools/index.md
       - tools/mkdocs.md
