@@ -175,6 +175,10 @@ nav:
               - cs/hpc/hpc101/llm.md
       - 编程语言:
           - cs/pl/c_smallbig.md
+  - CTF:
+      - ctf/index.md
+      - 比赛题解:
+          - ctf/zjuctf2025.md
   - 工具:
       - tools/index.md
       - tools/mkdocs.md
