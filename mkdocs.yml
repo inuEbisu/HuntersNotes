@@ -180,6 +180,7 @@ nav:
       - 比赛题解:
           - ctf/zjuctf2025.md
           - ctf/sjtuctf2025.md
+          - ctf/hackergame2024.md
   - 工具:
       - tools/index.md
       - tools/mkdocs.md
