@@ -26,8 +26,6 @@ zhu_Rong.use(Zhu_Rong.static(Ying_Zhou.join(__dirname)));
 
 存在任意文件读，访问 `/app.js` 获取密码，并修改 cookie `role=admin` 即可。
 
-Flag: `0ops{x66ZTwpe5fbrJuD69SrAuA}`
-
 ### Emergency
 
 Vite CVE-2025-30208 任意文件读，访问 `@fs/flag?import&raw??` 即可获取 flag。
