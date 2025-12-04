@@ -2,150 +2,158 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://note.inuebisu.cn/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ai/dlsys/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec6.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec7.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec8.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec9.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/hpc/hpc101/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/hpc/hpc101/llm.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/hpc/hpc101/riscv.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/pl/c_smallbig.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuicspa/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuicspa/pa0.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuicspa/pa1.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuos/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/organization/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://note.inuebisu.cn/cs/sys/organization/c2riscv.html</loc>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/organization/env.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/hackergame2024.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/sjtuctf2025.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://note.inuebisu.cn/ctf/zjuctf2024.html</loc>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/zjuctf2025.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/phy2/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/phyexp/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/probability/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/probability/1.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/probability/2.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/probability/3.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/ch01.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/ch02.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/ch03.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/tools/index.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/tools/mkdocs.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/tools/writing.html</loc>
-         <lastmod>2025-12-03</lastmod>
+         <lastmod>2025-12-04</lastmod>
     </url>
 </urlset>
