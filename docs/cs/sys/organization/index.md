@@ -45,3 +45,14 @@
 - [USTC Digital Lab 2025](https://soc.ustc.edu.cn/Digital/)
 
 - [USTC Digital Lab Pro 2025](https://soc.ustc.edu.cn/Digital-Pro/)
+
+## 手写笔记
+
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/img/pdf.svg" style="height: 3em;" class="off-glb"></div>
+<div class="file-body">
+<div class="file-title">计算机组成笔记（上）</div>
+<div class="file-meta">6.2 MiB / 14 P / 2025-12-04</div>
+</div>
+<a class="down-button" target="_blank" href="计算机组成笔记（上）.pdf" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
