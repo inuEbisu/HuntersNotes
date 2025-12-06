@@ -16,7 +16,7 @@ comment: true
 
 ### FIB 1
 
-斐波那契数列矩阵性质应用。题目定义 $fib(n, p) = (f_n, f_{n+1}) \pmod p$。
+斐波那契数列矩阵性质应用。题目定义 $\mathit{fib}(n, p) = (f_n, f_{n+1}) \pmod p$。
 
 利用斐波那契数列的矩阵形式：
 
@@ -26,7 +26,7 @@ $$
 
 #### Case 1
 
-已知 $fib(a, p)$ 和 $fib(b, p)$，求 $fib(a+b, p)$。
+已知 $\mathit{fib}(a, p)$ 和 $\mathit{fib}(b, p)$，求 $\mathit{fib}(a+b, p)$。
 
 利用矩阵乘法：
 
@@ -36,7 +36,7 @@ $$
 
 #### Case 2
 
-已知 $fib(a, p)$ 和 $k$，求 $fib(ka, p)$。
+已知 $\mathit{fib}(a, p)$ 和 $k$，求 $\mathit{fib}(ka, p)$。
 
 利用矩阵快速幂：
 
@@ -46,7 +46,7 @@ $$
 
 #### Case 3
 
-已知 $fib(a, p)$ 且 $fib(a+c, p) = (0, 1)$，求 $fib(c, p)$。
+已知 $\mathit{fib}(a, p)$ 且 $\mathit{fib}(a+c, p) = (0, 1)$，求 $\mathit{fib}(c, p)$。
 
 $$
 \begin{pmatrix} 0 \\ 1 \end{pmatrix} = \begin{pmatrix} f_{a-1} & f_a \\ f_a & f_{a+1} \end{pmatrix} \begin{pmatrix} f_c \\ f_{c+1} \end{pmatrix}
