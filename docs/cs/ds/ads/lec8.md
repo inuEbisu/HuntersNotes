@@ -116,7 +116,7 @@ $$
 
     - [背包 DP - OI Wiki](https://oi-wiki.org/dp/knapsack/)
 
-## 旅行商问题
+## Traveling Salesman Problem
 
 旅行商问题：寻找最短哈密顿回路。
 
