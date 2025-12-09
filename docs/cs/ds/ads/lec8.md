@@ -115,3 +115,15 @@ $$
 !!! info "推荐阅读"
 
     - [背包 DP - OI Wiki](https://oi-wiki.org/dp/knapsack/)
+
+## 旅行商问题
+
+旅行商问题：寻找最短哈密顿回路。
+
+$$
+C_{S,j}=\min _{k\in S,k\neq 1,j}C_{S-\{j\},k}+c_{kj}
+$$
+
+则最优解为 $\min_{j=2,\ldots,n} (C_{S,j} + c_{j1})$。
+
+时间复杂度为 $O(n^2 \cdot 2^n)$。
