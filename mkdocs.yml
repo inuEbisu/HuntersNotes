@@ -153,6 +153,8 @@ nav:
               - cs/ds/ads/lec6.md
               - cs/ds/ads/lec7.md
               - cs/ds/ads/lec8.md
+          - 大话数据结构:
+              - cs/ds/play_with_ds/index.md
       - 计算机系统:
           - 计算机组成:
               - cs/sys/organization/index.md
