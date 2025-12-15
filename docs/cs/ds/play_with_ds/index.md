@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # 大话数据结构
 
 !!! abstract
