@@ -33,7 +33,7 @@
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/img/pdf.svg" style="height: 3em;" class="off-glb"></div>
 <div class="file-body">
-<div class="file-title">大学物理 II 笔记（上）</div>
+<div class="file-title">大学物理 II 笔记（上）.pdf</div>
 <div class="file-meta">2.2 MiB / 6 P / 2025-11-16</div>
 </div>
 <a class="down-button" target="_blank" href="大学物理 II 笔记（上）.pdf" markdown="1">:fontawesome-solid-download: 下载</a>
