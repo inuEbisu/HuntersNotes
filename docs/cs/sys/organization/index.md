@@ -36,6 +36,8 @@
 
 - [计算机组成 - 咸鱼暄的代码空间](https://xuan-insr.github.io/computer_organization/)
 
+- [Tian42chen 的笔记](https://github.com/Tian42chen/Transcription-Malfunctioned/blob/main/_Finalized_Notes/CO.pdf)
+
 实验部分可参考：
 
 - [计算机组成实验部分 - WintermelonC Docs](https://wintermelonc.github.io/WintermelonC_Docs/zju/compulsory_courses/computer_organization/lab/)
