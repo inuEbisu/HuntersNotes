@@ -93,3 +93,14 @@
 小工具：
 
 - [VisuAlgo](https://visualgo.net/zh)
+
+## 手写笔记
+
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/img/pdf.svg" style="height: 3em;" class="off-glb"></div>
+<div class="file-body">
+<div class="file-title">高级数据结构与算法分析笔记.pdf</div>
+<div class="file-meta">18.9 MiB / 37 P / 2026-01-08</div>
+</div>
+<a class="down-button" target="_blank" href="高级数据结构与算法分析笔记.pdf" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
