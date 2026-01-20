@@ -2,17 +2,9 @@
 comment: true
 ---
 
-# C程序设计基础与实验
+# 应试痕迹
 
-!!! abstract
-
-    浙江大学《C程序设计基础与实验》课程。
-
-    - 课程代码：CS1001G
-    - 学分：4.0
-    - 老师：王建江
-
-这里是一些应试补天时留下的痕迹。
+备考时留下的一些痕迹。
 
 ## 格式错误之行末不得有多余空格
 
@@ -251,10 +243,3 @@ return 0;
 int a[][3] = {{1}, {4}, {7}}; // Valid
 int a[][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9}; // Valid
 ```
-
-[1]: https://inuebisu.cn/usr/uploads/2024/12/test1.png
-[2]: https://inuebisu.cn/usr/uploads/2024/12/test1_asm.png
-[3]: https://inuebisu.cn/usr/uploads/2024/12/test2.png
-[4]: https://inuebisu.cn/usr/uploads/2024/12/test2_asm.png
-[5]: https://inuebisu.cn/usr/uploads/2024/12/test3.png
-[6]: https://inuebisu.cn/usr/uploads/2024/12/test3_asm.png

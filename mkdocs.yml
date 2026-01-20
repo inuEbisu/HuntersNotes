@@ -174,7 +174,9 @@ nav:
               - cs/hpc/hpc101/riscv.md
               - cs/hpc/hpc101/llm.md
       - 编程语言:
-          - cs/pl/c_smallbig.md
+          - "C 程序设计基础与实验":
+              - cs/pl/c_smallbig/index.md
+              - cs/pl/c_smallbig/pickup.md
   - CTF:
       - ctf/index.md
       - 比赛题解:
