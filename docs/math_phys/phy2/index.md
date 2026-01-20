@@ -38,3 +38,21 @@
 </div>
 <a class="down-button" target="_blank" href="大学物理 II 笔记（上）.pdf" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
+
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/img/pdf.svg" style="height: 3em;" class="off-glb"></div>
+<div class="file-body">
+<div class="file-title">大学物理 II 笔记（中）.pdf</div>
+<div class="file-meta">2.5 MiB / 4 P / 2026-01-20</div>
+</div>
+<a class="down-button" target="_blank" href="大学物理 II 笔记（中）.pdf" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
+
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/img/pdf.svg" style="height: 3em;" class="off-glb"></div>
+<div class="file-body">
+<div class="file-title">大学物理 II 笔记（下）.pdf</div>
+<div class="file-meta">1.5 MiB / 3 P / 2026-01-20</div>
+</div>
+<a class="down-button" target="_blank" href="大学物理 II 笔记（下）.pdf" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
