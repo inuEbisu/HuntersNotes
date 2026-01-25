@@ -7,10 +7,6 @@
     - 课程代码：PHY2005G
     - 学分：1.5
 
-!!! quote "WIP"
-
-    预计会在学期结束后放出电子版实验报告。
-
 ## 我的课表
 
 1. 用双臂电桥测低电阻
@@ -30,6 +26,8 @@
 
 ## 参考资料
 
-- [图灵班学习指南](https://zju-turing.github.io/TuringCourses/math_phys/physics_experiment1/)（普物实验与大物实验相差不大）
+大家基本上应该都是这些（
 
-当然，可在 CC98 进行搜索并不断 Ctrl + C & V。
+- [大物实验报告 - 咸鱼暄的代码空间](https://xuan-insr.github.io/other_courses/big_physics_exp/)
+- [【大物实验报告/大学物理实验】全文latex源码合集分享](https://www.cc98.org/topic/6348696)
+- CC98 搜索
