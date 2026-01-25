@@ -8,8 +8,6 @@
     - 学分：2.5
     - 老师：黄炜
 
-!!! quote "WIP"
-
 ## 分数构成
 
 平时 60%，期末 40%。
@@ -29,8 +27,6 @@
 
 ## 参考资料
 
-- 黄炜老师的课程；
 - 浙江大学《概率论与数理统计》教科书；
-- [概率论与数理统计 - Savia 的外装代脑](https://savia7582.github.io/Exterior/Math/P%26S/0/)
-    - 计划期末补天时使用。
-- [概率论与数理统计 - 浙江大学课程攻略共享计划](https://qsctech.github.io/zju-icicles/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/)
+- [概率论与数理统计 - Savia 的外装代脑](https://savia7582.github.io/Exterior/Math/P%26S/0/)；
+- [概率论与数理统计 - 浙江大学课程攻略共享计划](https://qsctech.github.io/zju-icicles/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/)。

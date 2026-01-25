@@ -138,9 +138,6 @@ nav:
       - math_phys/index.md
       - 概率论与数理统计:
           - math_phys/probability/index.md
-          - math_phys/probability/1.md
-          - math_phys/probability/2.md
-          - math_phys/probability/3.md
       - 大学物理（乙）II:
           - math_phys/phy2/index.md
       - 大学物理实验:
