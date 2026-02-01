@@ -184,6 +184,7 @@ nav:
   - 杂项:
       - misc/index.md
       - misc/mkdocs.md
+      - misc/network_config.md
       - misc/writing.md
       - 律制:
           - misc/intonation/index.md
