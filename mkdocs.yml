@@ -181,12 +181,10 @@ nav:
           - ctf/sjtuctf2025.md
           - ctf/hackergame2024.md
           - ctf/zjuctf2024.md
-  - 工具:
-      - tools/index.md
-      - tools/mkdocs.md
-      - tools/writing.md
   - 杂项:
       - misc/index.md
+      - misc/mkdocs.md
+      - misc/writing.md
       - 律制:
           - misc/intonation/index.md
           - misc/intonation/ch01.md
