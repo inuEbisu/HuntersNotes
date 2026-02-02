@@ -11,11 +11,11 @@ dns:
     default-nameserver:
         - dhcp://system
         - https://223.5.5.5/dns-query
-        
+
     nameserver:
         - https://doh.pub/dns-query
         - https://dns.alidns.com/dns-query
-        
+
     nameserver-policy:
         "*zju.edu.cn": dhcp://system
         "*cc98.org": dhcp://system
