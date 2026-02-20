@@ -60,37 +60,21 @@
 
 ## 参考资料
 
+认真学习：
+
 - [yhwu 的讲义](https://yhwu-is.github.io/Teach/tcs/ads/ads/)
-    - 学习使用。
+- [图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/) 中的推荐书目
+    - 个人阅读过 Algorithm Illuminated，CLRS，KT。
+- [高级数据结构与算法分析 - NoughtQ 的笔记本](https://note.noughtq.top/algo/ads/)
+- 可视化工具 [VisuAlgo](https://visualgo.net/zh)
+
+补天拟合：
 
 - [Tian42chen的笔记](https://github.com/Tian42chen/Transcription-Malfunctioned/blob/main/_Finalized_Notes/ADS.pdf)
-    - 计划用于考前补天。
+- 朋辈辅学
+- PTA 上给陈越姥姥爆米
 
-- [Xecades 的笔记](https://note.xecades.xyz/cs/ads)
-    - 含数据结构部分简要。
-
-- 来自[图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/)（yhwu）的推荐书籍：
-    - 《算法详解》 _Algorithm Illuminated_, [ 美 ] Tim Roughgarden
-
-        入门书籍，覆盖了 FDS 和 ADS 的较多内容，可用于回顾 FDS 内容。
-
-    - 《数据结构与算法分析：C 语言描述》 _Data Structures and Algorithm Analysis in C_, [ 美 ] Mark Allen Weiss
-
-        数据结构（AVL 树、Splay 树、左式堆、斜堆和二项堆等）以及部分的算法分析内容（回溯、分治和动态规划等）基本按照本教材思路进行。
-
-    - 《算法导论》 _Introduction to Algorithms_, [ 美 ] Thomas H. Cormen, Charles E. Leiserson. Ronald L. Rivest, Clifford Stein
-
-        在这门课中，摊还分析、红黑树、B+ 树、贪心算法、NP 和随机算法等章节基本参考本教材，除此之外，作业中也有难题源于此书，project 中关于斐波那契堆的内容也可以参考。
-
-    - 《算法设计》 _Algorithm Design_, [ 美 ] Jon Kleinberg, Éva Tardos
-
-        在这门课中，近似算法、局部搜索等章节基本参考本教材，并且也有部分习题出自本教材。写作非常清楚且令人感到舒适。
-
-- [资源 - Starstone3's bed](https://starstone3.github.io/incourse/ADS/resource/)
-
-小工具：
-
-- [VisuAlgo](https://visualgo.net/zh)
+本人最后期末考试考得一坨，就不误人子弟了；我的手写笔记不嫌弃的话也可以看看。
 
 ## 手写笔记
 
