@@ -4,10 +4,6 @@ comment: true
 
 # Lec 6. Backtracing
 
-## Turnpike Reconstruction Problem
-
-!!! quote "WIP"
-
 ## Alpha-beta Pruning
 
 !!! info "推荐阅读"
