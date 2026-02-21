@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # 计算机组成
 
 !!! abstract

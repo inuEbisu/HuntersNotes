@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # 大学物理实验
 
 !!! abstract
