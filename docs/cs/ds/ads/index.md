@@ -69,6 +69,7 @@ comment: true
 - [yhwu 的讲义](https://yhwu-is.github.io/Teach/tcs/ads/ads/)
 - [图灵班学习指南](https://zju-turing.github.io/TuringCourses/major/advanced_data_structure/) 中的推荐书目
     - 个人阅读过 Algorithm Illuminated，CLRS，KT。
+- [💎 高级数据结构 | Advanced Data Structure - Isshiki修's Notebook](https://note.isshikih.top/cour_note/D2CX_AdvancedDataStructure/)
 - [高级数据结构与算法分析 - NoughtQ 的笔记本](https://note.noughtq.top/algo/ads/)
 - 可视化工具 [VisuAlgo](https://visualgo.net/zh)
 
