@@ -2,174 +2,182 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://note.inuebisu.cn/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ai/dlsys/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ai/lhy/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
+    </url>
+    <url>
+         <loc>https://note.inuebisu.cn/cs/ai/nnadl/index.html</loc>
+         <lastmod>2026-02-24</lastmod>
+    </url>
+    <url>
+         <loc>https://note.inuebisu.cn/cs/ai/nnadl/ch1a2.html</loc>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec1.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec2.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec4.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec5.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec6.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec7.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec8.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/ads/lec9.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/ds/play_with_ds/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/hpc/hpc101/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/hpc/hpc101/llm.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/hpc/hpc101/riscv.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/pl/c_smallbig/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/pl/c_smallbig/pickup.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuicspa/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuicspa/pa0.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuicspa/pa1.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/njuos/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/organization/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/organization/c2riscv.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/cs/sys/organization/env.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/hackergame2024.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/sjtuctf2025.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/zjuctf2024.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/ctf/zjuctf2025.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/phy2/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/phyexp/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/math_phys/probability/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/mkdocs.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/network_config.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/writing.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/index.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/ch01.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/ch02.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
     <url>
          <loc>https://note.inuebisu.cn/misc/intonation/ch03.html</loc>
-         <lastmod>2026-02-20</lastmod>
+         <lastmod>2026-02-24</lastmod>
     </url>
 </urlset>
