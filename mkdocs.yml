@@ -175,6 +175,7 @@ nav:
           - "Neural Networks and Deep Learning":
               - cs/ai/nnadl/index.md
               - cs/ai/nnadl/ch1a2.md
+              - cs/ai/nnadl/ch3.md
       - 高性能计算:
           - "HPC101 超算短学期":
               - cs/hpc/hpc101/index.md
