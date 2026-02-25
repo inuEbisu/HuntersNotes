@@ -20,7 +20,7 @@ To achieve it, we "cancel out" the $\sigma'(z)$ term by choosing specific cost f
 
 For binary or multi-label classification, we pair Sigmoid with **Cross-Entropy**:
 
-$$C_x = y \ln a + (1-y) \ln(1-a).$$
+$$C_x = -[y \ln a + (1-y) \ln(1-a)].$$
 
 ### Softmax & Log-Likelihood Cost
 
