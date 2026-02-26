@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Neural Networks and Deep Learning
 
 !!! abstract

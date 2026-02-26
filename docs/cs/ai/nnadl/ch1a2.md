@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Ch 1 & 2. MLP Foundations
 
 ## Architecture

@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Ch 3. Optimization of Learning
 
 > We need good stories to help motivate and inspire us, and rigorous in-depth investigation in order to uncover the real facts of the matter.
