@@ -55,7 +55,7 @@ $$f(z) = \max (0, z)$$
 
 Pros:
 
-- solves the vanishing gradient problem for $z > 0$ (gradient is constant 1);
+- Solves the vanishing gradient problem for $z > 0$ (gradient is constant 1);
 - Much faster to compute than exponentials.
 
 ## Modern Techniques in Deep Learning
