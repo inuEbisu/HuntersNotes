@@ -12,6 +12,6 @@ comment: true
 
     - 在线阅读：[Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/index.html)
 
-!!! success "Done"
+!!! success
 
     - 阅读时间：2026 年 2 月 23 日 ~ 2026 年 3 月 2 日
