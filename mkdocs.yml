@@ -158,9 +158,15 @@ nav:
           - 大话数据结构:
               - cs/ds/play_with_ds/index.md
       - 计算机系统:
+          - 数字逻辑设计:
+              - cs/sys/digital/index.md
           - 计算机组成:
               - cs/sys/organization/index.md
               - cs/sys/organization/env.md
+          - 计算机体系结构:
+              - cs/sys/arch/index.md
+          - 数据库系统:
+              - cs/sys/db/index.md
           # - "NJU 计算机系统基础":
           #     - cs/sys/njuicspa/index.md
           #     - cs/sys/njuicspa/pa0.md
