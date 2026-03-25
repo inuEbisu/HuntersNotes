@@ -1,3 +1,4 @@
+click==8.2.1
 mkdocs
 mkdocs-changelog-plugin
 mkdocs-get-deps
