@@ -1,6 +1,6 @@
 ---
 comment: true
-statistics: True
+statistics: true
 ---
 
 # 主页
