@@ -5,6 +5,7 @@
 env/
 venv/
 venv-mkdocs/
+.venv/
 .env/
 
 site/
