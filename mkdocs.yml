@@ -160,6 +160,7 @@ nav:
       - 计算机系统:
           - 数字逻辑设计:
               - cs/sys/digital/index.md
+              - cs/sys/digital/quizzes.md
           - 计算机组成:
               - cs/sys/organization/index.md
               - cs/sys/organization/env.md
