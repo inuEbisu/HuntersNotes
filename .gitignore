@@ -12,3 +12,4 @@ site
 .obsidian/
 Makefile
 mkdocs.dev.yml
+.DS_Store
