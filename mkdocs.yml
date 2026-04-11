@@ -187,6 +187,9 @@ nav:
               - cs/ai/nnadl/ch3.md
               - cs/ai/nnadl/ch4a5.md
               - cs/ai/nnadl/ch6.md
+          - "CS236: Deep Generative Model":
+              - cs/ai/cs236/index.md
+              - cs/ai/cs236/ch2.md
       - 高性能计算:
           - "HPC101 超算短学期":
               - cs/hpc/hpc101/index.md
