@@ -82,6 +82,22 @@ $$
   <img src="ch2/mlp_nade.jpg"></img>
 </figure>
 
+### RNADE
+
+### MADE
+
+### RNN
+
+### Generative Transformers
+
+### PixelRNN
+
+### PixelCNN
+
+### PixelDefend
+
+### WaveNet
+
 ## Learning & Inference
 
 ### Maximum Likelihood Estimation (MLE)
