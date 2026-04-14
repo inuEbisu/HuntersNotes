@@ -168,6 +168,7 @@ nav:
               - cs/sys/arch/index.md
           - 数据库系统:
               - cs/sys/db/index.md
+              - cs/sys/db/ch5.md
           # - "NJU 计算机系统基础":
           #     - cs/sys/njuicspa/index.md
           #     - cs/sys/njuicspa/pa0.md
