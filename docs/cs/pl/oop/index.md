@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # 面向对象程序设计
 
 !!! abstract
