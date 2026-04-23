@@ -76,13 +76,15 @@ comment: true
 ## Quiz 3
 
 1. Find the $t_\text{PHL}$ from input C to the output D, assuming $t_\text{PHL}=0.20\text{ ns}$ and $t_\text{PLH}=0.36\text{ ns}$ for each gate.
-
-    ![Quiz 3 Q1](./quizzes/quiz3_q1.png)
-
-    - A: 0.56 ns
-    - B: 0.6 ns
-    - C: 0.76 ns
-    - D: 0.92 ns
+ <div>
+   <p><img alt="Quiz 3 Q1" src="./quizzes/quiz3_q1.png" /></p>
+   <ul>
+     <li>A: 0.56 ns</li>
+     <li>B: 0.6 ns</li>
+     <li>C: 0.76 ns</li>
+     <li>D: 0.92 ns</li>
+   </ul>
+ </div>
 
 2. Consider a 4-input priority encoder with inputs $D_3$, $D_2$, $D_1$, $D_0$. The encoder responds to the most significant 1 (highest priority to $D_3$). It produces outputs $A_1$, $A_0$ and a valid flag $V$, where $V=1$ indicates at least one input is 1. What is the logic expression for $V$?
     - A: $D_3D_2 + D_1D_0$
@@ -91,22 +93,26 @@ comment: true
     - D: $D_3 + D_2 + D_1 + D_0$
 
 3. Please find the logic expression of output $F$ in the figure.
-
-    ![Quiz 3 Q3](./quizzes/quiz3_q3.png)
-
-    - A: $XY + X\bar{Y}$
-    - B: $\bar{X}\bar{Y} + XY$
-    - C: $\bar{X}Y + XY$
-    - D: $\bar{X}Y + X\bar{Y}$
+ <div>
+   <p><img alt="Quiz 3 Q3" src="./quizzes/quiz3_q3.png" /></p>
+   <ul>
+     <li>A: $XY + X\bar{Y}$</li>
+     <li>B: $\bar{X}\bar{Y} + XY$</li>
+     <li>C: $\bar{X}Y + XY$</li>
+     <li>D: $\bar{X}Y + X\bar{Y}$</li>
+   </ul>
+ </div>
 
 4. What specific Boolean function does the PLA implement for $F_2$?
-
-    ![Quiz 3 Q4](./quizzes/quiz3_q4.png)
-
-    - A: $AC + BC$
-    - B: $\bar{C}+\bar{A}\bar{B}$
-    - C: $\bar{A}C + BC$
-    - D: $AC + B$
+ <div>
+   <p><img alt="Quiz 3 Q4" src="./quizzes/quiz3_q4.png" /></p>
+   <ul>
+     <li>A: $AC + BC$</li>
+     <li>B: $\bar{C}+\bar{A}\bar{B}$</li>
+     <li>C: $\bar{A}C + BC$</li>
+     <li>D: $AC + B$</li>
+   </ul>
+ </div>
 
 ??? info "Answer"
 
