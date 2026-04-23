@@ -200,6 +200,8 @@ nav:
           - "C 程序设计基础与实验":
               - cs/pl/c_smallbig/index.md
               - cs/pl/c_smallbig/pickup.md
+          - "面向对象程序设计":
+              - cs/pl/oop/index.md
   - CTF:
       - ctf/index.md
       - 比赛题解:
