@@ -72,3 +72,45 @@ comment: true
     4. A (8, 1, 1)
         - **Implicants**: 3 + 4 + 1 = 8.
         - **PI/EPI**: Combined term $\bar{C}$ covers all required minterms.
+
+## Quiz 3
+
+1. Find the $t_\text{PHL}$ from input C to the output D, assuming $t_\text{PHL}=0.20\text{ ns}$ and $t_\text{PLH}=0.36\text{ ns}$ for each gate.
+
+    ![Quiz 3 Q1](./quizzes/quiz3_q1.png)
+
+    - A: 0.56 ns
+    - B: 0.6 ns
+    - C: 0.76 ns
+    - D: 0.92 ns
+
+2. Consider a 4-input priority encoder with inputs $D_3$, $D_2$, $D_1$, $D_0$. The encoder responds to the most significant 1 (highest priority to $D_3$). It produces outputs $A_1$, $A_0$ and a valid flag $V$, where $V=1$ indicates at least one input is 1. What is the logic expression for $V$?
+    - A: $D_3D_2 + D_1D_0$
+    - B: $D_3D_2 + D_1 + D_0$
+    - C: $D_3D_2D_1 + D_0$
+    - D: $D_3 + D_2 + D_1 + D_0$
+
+3. Please find the logic expression of output $F$ in the figure.
+
+    ![Quiz 3 Q3](./quizzes/quiz3_q3.png)
+
+    - A: $XY + X\bar{Y}$
+    - B: $\bar{X}\bar{Y} + XY$
+    - C: $\bar{X}Y + XY$
+    - D: $\bar{X}Y + X\bar{Y}$
+
+4. What specific Boolean function does the PLA implement for $F_2$?
+
+    ![Quiz 3 Q4](./quizzes/quiz3_q4.png)
+
+    - A: $AC + BC$
+    - B: $\bar{C}+\bar{A}\bar{B}$
+    - C: $\bar{A}C + BC$
+    - D: $AC + B$
+
+??? info "Answer"
+
+    1. C (0.76 ns)
+    2. D ($D_3 + D_2 + D_1 + D_0$)
+    3. B ($\bar{X}\bar{Y} + XY$)
+    4. B ($\bar{C}+\bar{A}\bar{B}$)
