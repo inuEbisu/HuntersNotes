@@ -10,6 +10,8 @@ comment: true
 
     - 在线阅读：[Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-!!! quote "WIP"
+!!! success
 
-    - 阅读时间：2026 年 3 月 9 日 ~ Present
+    - 阅读时间：2026 年 3 月 9 日 ~ 2026 年 4 月 25 日
+
+    Persistence 下学期再看 -w-
