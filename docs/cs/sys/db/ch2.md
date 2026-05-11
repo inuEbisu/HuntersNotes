@@ -27,13 +27,13 @@ To find maximal $q$ that satisfies $q \times S \subseteq r$.
 ![divide](ch2/divide.png)
 
 !!! example
-    
+
     Consider a university database schema designed to track student enrollments. The schema is defined as follows:
 
     - `student(sid, sname)`
     - `course(cid, cname)`
     - `enrollment(sid, cid)`
-    
+
     In this schema, `sid` and cid `serve` as the primary keys for their respective tables, while enrollment links students to the courses they have attended.
 
     Task: Find the IDs of all students who have enrolled in every course listed in the course table.
