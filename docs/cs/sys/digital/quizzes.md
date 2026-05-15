@@ -120,3 +120,59 @@ comment: true
     2. D ($D_3 + D_2 + D_1 + D_0$)
     3. B ($\bar{X}\bar{Y} + XY$)
     4. B ($\bar{C}+\bar{A}\bar{B}$)
+
+## Quiz 4
+
+1. For the decimal number $(-32)_{10}$ represented as an 8-bit signed binary number:
+    1. The signed-magnitude representation is `( 1 )`;
+    2. The signed-1's complement representation is `( 2 )`;
+    3. The signed-2's complement representation is `( 3 )`.
+
+2. Given two 4-bit signed 2's complement numbers, $A=(0100)_2$ and $B=(1101)_2$:
+    1. The result of $A-B$ is `( 1 )`;
+    2. Does overflow occur?
+
+3. Which of the following statements about latch and flip-flop behavior is **CORRECT**?
+    - A: Metastable state in a latch occurs when both inputs (S and R) are held at logic 0, causing the outputs to oscillate indefinitely.
+    - B: Oscillation in a basic SR latch happens when both inputs are 0 and then return to 1 simultaneously, leading to an undefined or endless switching state if gate delays are equal.
+    - C: 1s catching is a problem in edge-triggered D flip-flops, where a brief glitch on the D input during the clock edge can cause an incorrect output.
+    - D: A metastable state is a stable, long-term condition that can be intentionally used to store an intermediate logic value.
+
+4. As the sequential circuit shown below, determine its input equation, output equation, and next state equation.
+ <div>
+   <p><img alt="Quiz 4 Q4" src="./quizzes/quiz4_q4.gif" /></p>
+   <ul>
+     <li>A: $D=X\oplus Y, Z=X+Y, Q(t+1)=D$</li>
+     <li>B: $D=X+Y, Z=X\oplus Y, Q=D(t+1)$</li>
+     <li>C: $D=X+Y, Z=X\oplus Y, Q(t+1)=D$</li>
+     <li>D: $D=X\oplus Y, Z=X+Y, Q=D(t+1)$</li>
+   </ul>
+ </div>
+
+5. The timing parameters for the gates and flip-flops are as follows: NOT Gate: $t_{pd}=0.75\text{ ns}$; XOR Gate: $t_{pd}=3.0\text{ ns}$; AND Gate: $t_{pd}=1.5\text{ ns}$; Flip-flop: $t_{pd}=3.0\text{ ns}$, $t_s=1.25\text{ ns}$, $t_h=0.5\text{ ns}$. Find the longest path delay from positive clock edge to an external output, and the maximum frequency of operation of the circuit.
+ <div>
+   <p><img alt="Quiz 4 Q5" src="./quizzes/quiz4_q5.png" /></p>
+   <ul>
+     <li>A: 7.75 ns, 130 MHz</li>
+     <li>B: 7.5 ns, 120 MHz</li>
+     <li>C: 4.75 ns, 180 MHz</li>
+     <li>D: 7.5 ns, 125 MHz</li>
+   </ul>
+ </div>
+
+??? info "Answer"
+
+    1. 10100000, 11011111, 11100000
+        - $32=(00100000)_2$.
+        - Signed-magnitude: sign bit 1 plus magnitude 0100000 gives 10100000.
+        - 1's complement: invert 00100000 gives 11011111.
+        - 2's complement: add 1 to 11011111 gives 11100000.
+
+    2. 0111, overflow does not occur
+        - $A=4$, $B=-3$, so $A-B=4-(-3)=7=(0111)_2$.
+
+    3. B
+    4. C ($D=X+Y, Z=X\oplus Y, Q(t+1)=D$)
+    5. D (7.5 ns, 125 MHz)
+        - Clock-to-output longest path: $3.0+3.0+1.5=7.5\text{ ns}$.
+        - Register-to-register critical period: $3.0+3.0+0.75+1.25=8.0\text{ ns}$, so $f_{\max}=125\text{ MHz}$.
