@@ -215,6 +215,9 @@ nav:
           - misc/english_stylistics/index.md
           - misc/english_stylistics/intro.md
           - misc/english_stylistics/lexical.md
+          - misc/english_stylistics/semantic.md
+          - misc/english_stylistics/phonological.md
+          - misc/english_stylistics/syntactic.md
       - 律制:
           - misc/intonation/index.md
           - misc/intonation/ch01.md
