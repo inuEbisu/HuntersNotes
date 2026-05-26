@@ -211,6 +211,10 @@ nav:
       - misc/mkdocs.md
       - misc/network_config.md
       - misc/writing.md
+      - 英语文体学:
+          - misc/english_stylistics/index.md
+          - misc/english_stylistics/intro.md
+          - misc/english_stylistics/lexical.md
       - 律制:
           - misc/intonation/index.md
           - misc/intonation/ch01.md
