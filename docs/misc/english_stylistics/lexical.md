@@ -150,7 +150,7 @@ More Latinate and multisyllabic words usually increase formality.
 ??? example
 
     Two letters.
-    
+
     | Measure                      | Text A           | Text B                   |
     | :--------------------------- | :--------------- | :----------------------- |
     | Latinate words               | 25% (33/133)     | 16% (19/122)             |

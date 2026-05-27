@@ -242,7 +242,8 @@ Effects:
 
     Blake, *The Tyger*
 
-    > What immortal hand or eye  
+    > What immortal hand or eye
+    >
     > Could frame thy fearful symmetry?
 
     - Not merely asking for information.
@@ -252,9 +253,12 @@ Effects:
 
     Shakespeare, *The Merchant of Venice*
 
-    > If you prick us, do we not bleed?  
-    > If you tickle us, do we not laugh?  
-    > If you poison us, do we not die?  
+    > If you prick us, do we not bleed?
+    >
+    > If you tickle us, do we not laugh?
+    >
+    > If you poison us, do we not die?
+    >
     > And if you wrong us, shall we not revenge?
 
     - Repeated rhetorical questions.

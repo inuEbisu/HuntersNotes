@@ -46,7 +46,8 @@ Sound patterns suggest sensory or psychological meanings.
 
     Tennyson, *Come Down, O Maid*
 
-    > The moan of doves in immemorial elms,  
+    > The moan of doves in immemorial elms,
+    >
     > And murmuring of innumerable bees...
 
     - Repeated nasal sounds, especially /m/.
@@ -57,7 +58,8 @@ Sound patterns suggest sensory or psychological meanings.
 
     Keats, *To Autumn*
 
-    > Or by a cider press, with patient look,  
+    > Or by a cider press, with patient look,
+    >
     > Thou watchest the last oozings hours by hours.
 
     - `oozings` has slow, lingering vowel movement.
@@ -92,9 +94,12 @@ Characteristics:
 
     Thomas Nashe, *Spring*
 
-    > Spring, the sweet Spring, is the year's pleasant king;  
-    > then blooms each thing, then maids dance in a ring;  
-    > cold doth not sting, the pretty birds do sing;  
+    > Spring, the sweet Spring, is the year's pleasant king;
+    >
+    > then blooms each thing, then maids dance in a ring;
+    >
+    > cold doth not sting, the pretty birds do sing;
+    >
     > Cuckoo, jug-jug, pu-we, to-witta-wo!
 
     - End rhyme: `Spring / king / thing / ring / sting / sing`.
@@ -105,7 +110,8 @@ Characteristics:
 
     白居易, 《琵琶行》
 
-    > 大弦嘈嘈如急雨，小弦切切如私语。  
+    > 大弦嘈嘈如急雨，小弦切切如私语。
+    >
     > 岂无山歌与村笛？呕哑嘲哳难为听。
 
     | Chinese     | Translation                                                | Effect                  |
@@ -165,8 +171,10 @@ $C_3^2 + C_3^1 = 3 + 3 = 6$
 
     Poe, *The Raven*
 
-    > And the silken, sad, uncertain rustling of each purple curtain  
-    > Thrilled me-filled me with fantastic terrors never felt before;  
+    > And the silken, sad, uncertain rustling of each purple curtain
+    >
+    > Thrilled me-filled me with fantastic terrors never felt before;
+    >
     > Only this and nothing more.
 
     - `silken / sad`: alliteration.
@@ -195,9 +203,12 @@ Common schemes:
 
     *Ten Little Soldier Boys*
 
-    > Ten little soldier boys went out to dine; (A)  
-    > One choked his little self and then there were nine. (A)  
-    > Nine little soldier boys sat up very late; (B)  
+    > Ten little soldier boys went out to dine; (A)
+    >
+    > One choked his little self and then there were nine. (A)
+    >
+    > Nine little soldier boys sat up very late; (B)
+    >
     > One overslept himself and then there were eight. (B)
 
     Scheme: AABB.
@@ -229,7 +240,8 @@ Common schemes:
 
     Final couplet:
 
-    > So long as men can breathe or eyes can see,  
+    > So long as men can breathe or eyes can see,
+    >
     > So long lives this, and this gives life to thee.
 
     - `see / thee`: heroic couplet-like closure.
@@ -247,7 +259,8 @@ Common schemes:
 
     Refrains:
 
-    > Do not go gentle into that good night.  
+    > Do not go gentle into that good night.
+    >
     > Rage, rage against the dying of the light.
 
     - Tight two-rhyme structure.
@@ -308,7 +321,8 @@ Common patterns:
 
     Blank verse:
 
-    > To be, or not to be: that is the question:  
+    > To be, or not to be: that is the question:
+    >
     > Whether 'tis nobler in the mind to suffer...
 
     - Unrhymed.
@@ -319,7 +333,8 @@ Common patterns:
 
     Heroic couplet:
 
-    > So long as men can breathe or eyes can see,  
+    > So long as men can breathe or eyes can see,
+    >
     > So long lives this, and this gives life to thee.
 
     Check:

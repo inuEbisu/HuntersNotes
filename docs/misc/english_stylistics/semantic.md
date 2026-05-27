@@ -40,7 +40,8 @@ Effects:
 
     Shakespeare, *As You Like It*
 
-    > All the world's a stage,  
+    > All the world's a stage,
+    >
     > And all the men and women merely players.
 
     Shakespeare, *Macbeth*
@@ -82,7 +83,8 @@ Effects:
 
     W. H. Auden, *As I Walked Out One Evening*
 
-    > I'll love you till the ocean  
+    > I'll love you till the ocean
+    >
     > Is folded and hung up to dry...
 
     - Hyperbole.
@@ -107,8 +109,10 @@ Common examples:
 
     Shakespeare, *Romeo and Juliet*
 
-    > O brawling love! O loving hate!  
-    > O heavy lightness! Serious vanity!  
+    > O brawling love! O loving hate!
+    >
+    > O heavy lightness! Serious vanity!
+    >
     > Feather of lead, bright smoke, cold fire, sick health...
 
     | Phrase               | Effect                       |
@@ -143,8 +147,10 @@ Effects:
 
     *The Declaration of Independence*
 
-    > that all men are created equal,  
-    > that they are endowed...  
+    > that all men are created equal,
+    >
+    > that they are endowed...
+    >
     > that among these are Life, Liberty and the pursuit of Happiness.
 
     Repeated `that`-clauses create formal, rational, declarative force.
@@ -164,10 +170,14 @@ Examples:
 
     Dickens, *A Tale of Two Cities*
 
-    > It was the best of times, it was the worst of times;  
-    > it was the age of wisdom, it was the age of foolishness;  
-    > it was the epoch of belief, it was the epoch of incredulity;  
-    > it was the season of light, it was the season of darkness;  
+    > It was the best of times, it was the worst of times;
+    >
+    > it was the age of wisdom, it was the age of foolishness;
+    >
+    > it was the epoch of belief, it was the epoch of incredulity;
+    >
+    > it was the season of light, it was the season of darkness;
+    >
     > it was the spring of hope, it was the winter of despair...
 
     | Device      | Evidence                                     | Effect                             |
