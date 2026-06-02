@@ -208,9 +208,6 @@ nav:
           - ctf/zjuctf2024.md
   - 杂项:
       - misc/index.md
-      - misc/mkdocs.md
-      - misc/network_config.md
-      - misc/writing.md
       - 英语文体学:
           - misc/english_stylistics/index.md
           - misc/english_stylistics/intro.md
@@ -218,6 +215,9 @@ nav:
           - misc/english_stylistics/semantic.md
           - misc/english_stylistics/phonological.md
           - misc/english_stylistics/syntactic.md
+      - misc/mkdocs.md
+      - misc/network_config.md
+      - misc/writing.md
       - 律制:
           - misc/intonation/index.md
           - misc/intonation/ch01.md
