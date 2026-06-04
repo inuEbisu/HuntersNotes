@@ -176,3 +176,72 @@ comment: true
     5. D (7.5 ns, 125 MHz)
         - Clock-to-output longest path: $3.0+3.0+1.5=7.5\text{ ns}$.
         - Register-to-register critical period: $3.0+3.0+0.75+1.25=8.0\text{ ns}$, so $f_{\max}=125\text{ MHz}$.
+
+## Quiz 5
+
+1. What is the function of the following 4-bit counter with parallel load?
+ <div>
+   <p><img alt="Quiz 5 Q1" src="./quizzes/quiz5_q1.png" /></p>
+   <ul>
+     <li>A: It counts from 0 to 12 and back to 0.</li>
+     <li>B: It counts from 0 to 9 and back to 0.</li>
+     <li>C: It counts from 0 to 10 and back to 0.</li>
+   </ul>
+ </div>
+
+2. Given two 8-bit registers $R1$ and $R2$, with $R1=(1011\ 0110)_2$ and $R2=(0111\ 1010)_2$. After two microoperations:
+    1. $R1 \leftarrow sl\ R1$;
+    2. $R1 \leftarrow R1 \oplus R2$.
+
+    Then $R1=$ `( ? )`.
+    - A: $0001\ 0110$
+    - B: $0011\ 0110$
+    - C: $1101\ 1110$
+    - D: $0001\ 1110$
+
+3. In the sequential circuit shown below, if the initial value of the output $Q_1Q_0$ is 00, what are the next four values of $Q_1Q_0$?
+ <div>
+   <p><img alt="Quiz 5 Q3" src="./quizzes/quiz5_q3.png" /></p>
+   <ul>
+     <li>A: 11, 10, 01, 00</li>
+     <li>B: 10, 11, 01, 00</li>
+     <li>C: 10, 00, 01, 11</li>
+     <li>D: 11, 10, 00, 01</li>
+   </ul>
+ </div>
+
+4. Choose the correct register transfer operations for the following diagram.
+ <div>
+   <p><img alt="Quiz 5 Q4" src="./quizzes/quiz5_q4.png" /></p>
+   <ul>
+     <li>A: $t_1: R2 \leftarrow R1;\ t_3: R2 \leftarrow R0$</li>
+     <li>B: $t_1: R2 \leftarrow R1;\ t_1't_3: R2 \leftarrow R0$</li>
+     <li>C: $t_1t_3': R2 \leftarrow R1;\ t_3: R2 \leftarrow R0$</li>
+   </ul>
+ </div>
+
+5. You are designing a synchronous sequential circuit to detect the sequence "101" on a serial input stream. What is the minimum number of states required for a Mealy-type circuit and a Moore-type circuit, respectively?
+    - A: Mealy: 3 states; Moore: 3 states
+    - B: Mealy: 4 states; Moore: 4 states
+    - C: Mealy: 3 states; Moore: 4 states
+    - D: Mealy: 4 states; Moore: 5 states
+
+??? info "Answer"
+
+    1. A
+        - The load signal is asserted when $A_3A_2=11$, so the counter loads $0000$ after reaching $1100_2=12$.
+
+    2. A ($0001\ 0110$)
+        - Shift left: $1011\ 0110 \to 0110\ 1100$.
+        - XOR with $R2$: $0110\ 1100 \oplus 0111\ 1010 = 0001\ 0110$.
+
+    3. A (11, 10, 01, 00)
+        - Both T flip-flops have $T=1$, so they toggle. Starting from $Q_1Q_0=00$, the ripple sequence is $11 \to 10 \to 01 \to 00$.
+
+    4. C
+        - $t_1$ enables load and selects input 0 of the MUX, so $R2 \leftarrow R1$ when $t_1t_3'$.
+        - $t_3$ enables load and selects input 1 of the MUX, so $R2 \leftarrow R0$.
+
+    5. C
+        - A Mealy detector can assert output on the transition that completes "101", requiring 3 states.
+        - A Moore detector needs an extra output state after the sequence is detected, requiring 4 states.
