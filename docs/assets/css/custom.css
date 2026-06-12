@@ -25,6 +25,32 @@
     display: none;
 }
 
+/* hyoerlink */
+
+.md-typeset :where(p, li, td, th, blockquote, dd) a {
+    color: var(--md-typeset-a-color);
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration-color: var(--hn-link-underline);
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-image: none;
+    transition:
+        color 125ms,
+        background-color 125ms,
+        border-color 125ms;
+}
+
+.md-typeset :where(p, li, td, th, blockquote, dd) a:is(:hover, :focus) {
+    background: var(--hn-link-hover-bg);
+    border-bottom: 1px dashed var(--hn-link-hover);
+    color: var(--hn-link-hover);
+    text-decoration: none;
+}
+
 /* light mode */
 
 [data-md-color-scheme="default"] .md-nav__title {
