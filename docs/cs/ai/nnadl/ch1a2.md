@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Ch 1 & 2. MLP Foundations

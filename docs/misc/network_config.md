@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 网络配置

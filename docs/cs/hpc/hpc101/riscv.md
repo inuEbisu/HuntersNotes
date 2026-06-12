@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # RISC-V 向量化
@@ -222,27 +222,9 @@ VLEN = 256；根据文档，$copy = 1$，于是 $M = 4, N = 4, K = 8$。
 
 访存上，我们应当如何从 $A$ 中读取这样一块 $4 \times 8$ 的矩阵到寄存器呢？如图，其中每一个格子为一个 `uint8_t`，$A$ 的形状为 $12 \times 32$。
 
-```typst
-#import "@preview/cetz:0.4.1"
-
-#set page(width: auto, height: auto, margin: .5cm)
-
-#figure(
-  cetz.canvas(
-    {
-      import cetz.draw: *
-      let stress = green.lighten(80%)
-
-      rect((0, 12), (8, 8), fill: stress)
-      grid(
-        (0, 0),
-        (32, 12),
-      )
-    },
-    length: 8pt,
-  ),
-)
-```
+<figure class="typst-diagram">
+  <img src="riscv/matrix-block-load.svg" alt="Matrix block load layout">
+</figure>
 
 用 Strided Load 的想法来看，我们需要每 256 位读入连续的 64 位。那么可以设置 SEW = 64, Stride = 256。可以选用 `__riscv_vlse64_v_u64m1` 这个 Intrinsic 来进行访存。
 

@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 计算机组成

@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Ch 3. Optimization of Learning

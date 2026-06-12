@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Ch 4 & 5. Theoretical Universality & Practical Instability

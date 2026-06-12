@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # ZJUCTF 2025

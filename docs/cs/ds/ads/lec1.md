@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Lec 1. AVL Trees, Splay Trees and Amortized Analysis

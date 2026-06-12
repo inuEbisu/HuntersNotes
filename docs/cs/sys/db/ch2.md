@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Ch 2. Relation Model

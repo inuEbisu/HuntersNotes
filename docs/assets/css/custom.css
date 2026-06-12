@@ -113,3 +113,12 @@ html {
     font-style: normal;
     color: #777;
 }
+
+.typst-diagram {
+    text-align: center;
+}
+
+.typst-diagram img {
+    max-width: 100%;
+    height: auto;
+}

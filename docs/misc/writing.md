@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 技术文档写作

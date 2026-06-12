@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Lec 9. Greedy Algorithms

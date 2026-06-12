@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Lec 1. Digital Systems and Information

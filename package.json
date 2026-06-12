@@ -6,6 +6,8 @@
         "url": "git+https://github.com/inuEbisu/HuntersNotes.git"
     },
     "scripts": {
+        "build": "python scripts/update_site_stats.py && zensical build --clean",
+        "serve": "python scripts/update_site_stats.py && zensical serve",
         "format": "prettier --write .",
         "format:check": "prettier --check ."
     },

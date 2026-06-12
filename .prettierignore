@@ -9,8 +9,9 @@ venv-mkdocs/
 .env/
 
 site/
+.cache/
+docs/assets/site-stats.json
 
-mkdocs.yml
 # docs/assets/
 
 package*.json

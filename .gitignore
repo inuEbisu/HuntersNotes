@@ -7,6 +7,8 @@ __pycache__/
 # Build
 venv
 site
+.cache/
+docs/assets/site-stats.json
 
 # Others
 .obsidian/

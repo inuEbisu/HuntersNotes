@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 英语文体学

@@ -4,28 +4,26 @@ on:
     branches:
       - main
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      # Git
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
       # Set-up dependencies
-      - name: Setup Typst
-        uses: typst-community/setup-typst@v4
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: "3.14"
           cache: pip
           cache-dependency-path: requirements.txt
       - name: Setup pnpm
@@ -49,19 +47,14 @@ jobs:
           pnpm run format:check
 
       # Build and deploy
-      - name: Install Source Han Sans SC
+      - name: Generate site statistics
         run: |
-          sudo apt-get update -y
-          sudo apt-get install -y fontconfig unzip
-          curl -L -o /tmp/SourceHanSansSC.zip https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSansSC.zip
-          sudo mkdir -p /usr/local/share/fonts/opentype/source-han-sans-sc
-          sudo unzip -q /tmp/SourceHanSansSC.zip -d /usr/local/share/fonts/opentype/source-han-sans-sc
-          sudo fc-cache -f -v
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
+          python scripts/update_site_stats.py
+      - name: Build documentation
+        run: |
+          zensical build --clean
+      - uses: actions/upload-pages-artifact@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: mkdocs gh-deploy --force
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment

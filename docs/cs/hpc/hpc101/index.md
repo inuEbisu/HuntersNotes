@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # HPC101 超算短学期

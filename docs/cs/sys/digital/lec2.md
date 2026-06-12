@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Lec 2. Combinational Logic Circuits

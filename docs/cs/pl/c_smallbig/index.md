@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # C 程序设计基础与实验

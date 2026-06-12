@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Ch 6. Deep Learning

@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Neural Networks and Deep Learning

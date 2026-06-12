@@ -1,6 +1,5 @@
 ---
-comment: true
-statistics: true
+comments: true
 ---
 
 # 主页
@@ -13,4 +12,4 @@ statistics: true
 
 !!! info "统计"
 
-    本站目前共 {{ pages }} 页，{{ words }} 字，{{ codes }} 行代码，{{ images }} 张图片。
+    本站目前共 <span data-site-stat="pages">-</span> 页，<span data-site-stat="words">-</span> 字，<span data-site-stat="codes">-</span> 行代码，<span data-site-stat="images">-</span> 张图片。

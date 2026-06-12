@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 在 Linux 上编写 HDL

@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # CS236: Deep Generative Models

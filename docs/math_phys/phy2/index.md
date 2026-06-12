@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 大学物理（乙）II

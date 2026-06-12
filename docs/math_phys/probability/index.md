@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # 概率论与数理统计

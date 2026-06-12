@@ -1,5 +1,5 @@
 ---
-comment: true
+comments: true
 ---
 
 # Hackergame 2024

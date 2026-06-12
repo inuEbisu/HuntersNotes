@@ -1,12 +1,12 @@
 ---
-comment: true
+comments: true
 ---
 
 # Lec 8. Dynamic Programming
 
 > Dynamic programming takes practice to perfect.
 >
-> <p style="text-align: right">—— *Algorithm Illuminated*, [ 美 ] Tim Roughgarden</p>
+> <p style="text-align: right">—— *Algorithm Illuminated*, Tim Roughgarden</p>
 
 ## Dynamic Programming
 
