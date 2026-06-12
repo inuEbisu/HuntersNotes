@@ -27,7 +27,7 @@
 
 /* hyoerlink */
 
-.md-typeset :where(p, li, td, th, blockquote, dd) a {
+.md-typeset :where(p, li, td, th, blockquote, dd) a:not(.down-button) {
     color: var(--md-typeset-a-color);
     font-weight: 500;
     text-decoration-line: underline;
@@ -44,7 +44,9 @@
         border-color 125ms;
 }
 
-.md-typeset :where(p, li, td, th, blockquote, dd) a:is(:hover, :focus) {
+.md-typeset
+    :where(p, li, td, th, blockquote, dd)
+    a:not(.down-button):is(:hover, :focus) {
     background: var(--hn-link-hover-bg);
     border-bottom: 1px dashed var(--hn-link-hover);
     color: var(--hn-link-hover);

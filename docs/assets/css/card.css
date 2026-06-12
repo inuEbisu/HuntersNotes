@@ -16,11 +16,6 @@
     margin-bottom: 1em;
 }
 
-[data-md-color-scheme="slate"] .card {
-    background-color: #181818;
-    border: 0.5px solid #606060;
-}
-
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -55,16 +50,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0.2em 1em;
-    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 0.75rem;
+    background-color: var(--md-default-fg-color--lightest);
+    border: 0;
+    border-radius: 0.4rem;
+    color: var(--md-default-fg-color);
+    margin-bottom: 0.6rem;
+    padding: 0.5rem 1rem 0.5rem 0.8rem;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
 }
 
 .file-block:hover {
-    background-color: #eeeeee;
-}
-
-[data-md-color-scheme="slate"] .file-block:hover {
-    background-color: #606060;
+    background-color: var(--md-accent-fg-color--transparent);
+    color: var(--md-accent-fg-color);
 }
 
 .file-title {
@@ -77,33 +77,64 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.8em;
+    transition: color 0.25s;
 }
 
 .file-body {
-    padding-left: 1em;
     margin-right: auto;
+    min-width: 0;
+}
+
+.file-block:hover .file-meta {
+    color: var(--md-accent-fg-color);
 }
 
 .file-icon {
+    align-items: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    padding: 0.35rem;
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+.file-icon img {
+    display: block;
+}
+
+.file-block p:has(> .down-button) {
+    margin: 0;
 }
 
 .down-button {
-    border: 0.05rem solid;
+    align-items: center;
+    background-color: var(--md-default-bg-color);
+    border-radius: 0.4rem;
+    color: var(--md-default-fg-color--light) !important;
     cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    padding: 0.25em 0.5em;
+    display: inline-flex;
+    font-size: 0.8rem;
+    font-weight: 600;
+    gap: 0.35em;
+    line-height: 1;
+    padding: 0.45rem 0.6rem;
+    text-decoration: none !important;
     transition:
-        color 0.3s,
-        background-color 0.3s,
-        border-color 0.3s !important;
+        color 0.25s,
+        background-color 0.25s,
+        border-color 0.25s !important;
 }
 
 .down-button:is(:focus, :hover) {
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
     color: var(--md-accent-bg-color) !important;
+}
+
+.down-button .twemoji {
+    height: 1em;
+    width: 1em;
 }
