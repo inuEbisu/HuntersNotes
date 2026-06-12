@@ -25,12 +25,20 @@ extra_javascript = [
 ]
 
 nav = [
-  { "主页" = ["index.md"] },
+  { "主页" = [
+    "index.md",
+  ] },
   { "数理" = [
     "math_phys/index.md",
-    { "概率论与数理统计" = ["math_phys/probability/index.md"] },
-    { "大学物理（乙）II" = ["math_phys/phy2/index.md"] },
-    { "大学物理实验" = ["math_phys/phyexp/index.md"] },
+    { "概率论与数理统计" = [
+      "math_phys/probability/index.md",
+    ] },
+    { "大学物理（乙）II" = [
+      "math_phys/phy2/index.md",
+    ] },
+    { "大学物理实验" = [
+      "math_phys/phyexp/index.md",
+    ] },
   ] },
   { "计算机" = [
     "cs/index.md",
@@ -46,7 +54,9 @@ nav = [
         "cs/ds/ads/lec8.md",
         "cs/ds/ads/lec9.md",
       ] },
-      { "大话数据结构" = ["cs/ds/play_with_ds/index.md"] },
+      { "大话数据结构" = [
+        "cs/ds/play_with_ds/index.md",
+      ] },
     ] },
     { "计算机系统" = [
       { "数字逻辑设计" = [
@@ -62,18 +72,26 @@ nav = [
         "cs/sys/organization/index.md",
         "cs/sys/organization/env.md",
       ] },
-      { "计算机体系结构" = ["cs/sys/arch/index.md"] },
+      { "计算机体系结构" = [
+        "cs/sys/arch/index.md",
+      ] },
       { "数据库系统" = [
         "cs/sys/db/index.md",
         "cs/sys/db/ch2.md",
         "cs/sys/db/ch5.md",
         "cs/sys/db/ch6.md",
       ] },
-      { "Operating System: Three Easy Pieces" = ["cs/sys/ostep/index.md"] },
+      { "Operating System: Three Easy Pieces" = [
+        "cs/sys/ostep/index.md",
+      ] },
     ] },
     { "人工智能" = [
-      { "CMU 10-414/714 Deep Learning Systems" = ["cs/ai/dlsys/index.md"] },
-      { "李宏毅机器学习" = ["cs/ai/lhy/index.md"] },
+      { "CMU 10-414/714 Deep Learning Systems" = [
+        "cs/ai/dlsys/index.md",
+      ] },
+      { "李宏毅机器学习" = [
+        "cs/ai/lhy/index.md",
+      ] },
       { "Neural Networks and Deep Learning" = [
         "cs/ai/nnadl/index.md",
         "cs/ai/nnadl/ch1a2.md",
@@ -98,7 +116,9 @@ nav = [
         "cs/pl/c_smallbig/index.md",
         "cs/pl/c_smallbig/pickup.md",
       ] },
-      { "面向对象程序设计" = ["cs/pl/oop/index.md"] },
+      { "面向对象程序设计" = [
+        "cs/pl/oop/index.md",
+      ] },
     ] },
   ] },
   { "CTF" = [
