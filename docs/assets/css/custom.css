@@ -18,6 +18,10 @@
     color: var(--md-accent-fg-color);
 }
 
+.md-nav__item--active > .md-nav:not(:has(> .md-nav__list > .md-nav__item)) {
+    display: none;
+}
+
 /* light mode */
 
 [data-md-color-scheme="default"] .md-nav__title {
