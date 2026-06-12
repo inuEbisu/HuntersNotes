@@ -1,5 +1,8 @@
 :root {
     --md-code-font: "JetBrains Mono NL", "LXGW WenKai Screen";
+    --hn-link-hover-bg: var(--md-accent-fg-color--transparent);
+    --hn-link-underline: var(--md-accent-fg-color--transparent);
+    --hn-link-hover: var(--md-accent-fg-color);
 }
 
 .md-nav--secondary .md-nav__title {
@@ -29,34 +32,19 @@
 }
 
 [data-md-color-scheme="default"][data-md-color-primary="brown"] {
+    --md-primary-fg-color: #795548;
+    --md-primary-bg-color: #fff;
     --md-accent-fg-color: #b48a7c;
     --md-accent-fg-color--transparent: #b48a7c1a;
+    --hn-link-hover-bg: #b48a7c1a;
+    --hn-link-underline: #79554866;
+    --hn-link-hover: #795548;
 }
 
 /* dark mode */
 
-[data-md-color-primary="black"] .md-header,
-[data-md-color-primary="black"] .md-tabs {
-    background-color: #1c1c1c;
-}
-
 [data-md-color-scheme="slate"][data-md-color-primary="black"] {
-    --md-default-bg-color: #161616;
-    --md-default-bg-color--light: #161616;
-    --md-default-bg-color--lighter: #161616;
-    --md-default-bg-color--lightest: #161616;
-    --md-default-fg-color: rgba(255, 255, 255, 0.9);
-    --md-default-fg-color--light: rgba(255, 255, 255, 0.85);
-    --md-default-fg-color--lighter: rgba(255, 255, 255, 0.8);
-    --md-default-fg-color--lightest: rgba(255, 255, 255, 0.6);
-    --md-primary-fg-color: #0d0d0d;
-    --md-typeset-a-color: #d3d3d3;
-    --md-footer-fg-color: #fff;
-    --md-footer-bg-color: #0d0d0d;
-    --md-footer-bg-color--dark: #0d0d0d;
-    --md-footer-fg-color--light: #fff;
-    --md-footer-fg-color--lighter: #fff;
-    --md-code-bg-color: #1d1d1d;
+    --hn-link-underline: #5e8bde88;
 }
 
 /* image border-radius and shadow */

@@ -190,8 +190,8 @@ toggle.name = "切换至深色模式"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-# primary = "black"
-# accent = "indigo"
+primary = "black"
+accent = "indigo"
 toggle.icon = "material/weather-sunny"
 toggle.name = "切换至浅色模式"
 
