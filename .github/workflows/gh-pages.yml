@@ -50,9 +50,12 @@ jobs:
       - name: Generate site statistics
         run: |
           python scripts/update_site_stats.py
+      - name: Prepare generated documentation
+        run: |
+          python scripts/prepare_zensical_docs.py
       - name: Build documentation
         run: |
-          zensical build --clean
+          zensical build -f zensical.generated.toml --clean
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

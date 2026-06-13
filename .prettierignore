@@ -10,6 +10,8 @@ venv-mkdocs/
 
 site/
 .cache/
+generated/
+zensical.generated.toml
 docs/assets/site-stats.json
 
 # docs/assets/

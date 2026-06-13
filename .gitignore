@@ -8,6 +8,8 @@ __pycache__/
 venv
 site
 .cache/
+generated/
+zensical.generated.toml
 docs/assets/site-stats.json
 
 # Others
