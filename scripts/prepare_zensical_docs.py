@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import re
 import shutil
 import subprocess
 from dataclasses import dataclass
@@ -13,6 +15,12 @@ OUT_DOCS = ROOT / "generated" / "zensical-docs"
 OUT_CONFIG = ROOT / "zensical.generated.toml"
 SOURCE_CONFIG = ROOT / "zensical.toml"
 GENERATED_DOCS_DIR = "generated/zensical-docs"
+SITE_STATS = DOCS / "assets" / "site-stats.json"
+SITE_STATS_RE = re.compile(
+    r"(<span\b(?=[^>]*\bdata-site-stat=[\"'](?P<key>[^\"']+)[\"'])[^>]*>)"
+    r".*?"
+    r"(</span>)"
+)
 
 META_KEYS = (
     "git_revision_date_localized",
@@ -148,6 +156,35 @@ def inject_front_matter(path: Path, values: dict[str, str]) -> None:
     path.write_text("---\n" + "".join(kept + generated) + "---\n" + body, encoding="utf-8")
 
 
+def load_site_stats() -> dict[str, str]:
+    if not SITE_STATS.exists():
+        return {}
+
+    values = json.loads(SITE_STATS.read_text(encoding="utf-8"))
+    return {
+        key: f"{value:,}" if isinstance(value, int) else str(value)
+        for key, value in values.items()
+    }
+
+
+def inject_site_stats(path: Path, stats: dict[str, str]) -> None:
+    if not stats:
+        return
+
+    text = path.read_text(encoding="utf-8")
+
+    def replace(match: re.Match[str]) -> str:
+        key = match.group("key")
+        value = stats.get(key)
+        if value is None:
+            return match.group(0)
+        return f"{match.group(1)}{value}{match.group(3)}"
+
+    updated = SITE_STATS_RE.sub(replace, text)
+    if updated != text:
+        path.write_text(updated, encoding="utf-8")
+
+
 def write_generated_config() -> None:
     text = SOURCE_CONFIG.read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
@@ -186,10 +223,12 @@ def main() -> None:
 
     site_history = run_git_log()
     site_revision = site_history[0] if site_history else fallback_date()
+    site_stats = load_site_stats()
 
     for source_path in sorted(DOCS.rglob("*.md")):
         target_path = OUT_DOCS / source_path.relative_to(DOCS)
         inject_front_matter(target_path, metadata_for(source_path, site_revision))
+        inject_site_stats(target_path, site_stats)
 
     write_generated_config()
     print(f"Prepared {OUT_DOCS.relative_to(ROOT)} and {OUT_CONFIG.relative_to(ROOT)}")
