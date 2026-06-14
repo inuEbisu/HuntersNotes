@@ -25,9 +25,9 @@
     display: none;
 }
 
-/* hyoerlink */
+/* hyperlink */
 
-.md-typeset :where(p, li, td, th, blockquote, dd) a:not(.down-button) {
+.md-typeset :where(p, li, td, th, blockquote, dd) a:not(.down-button):not(:has(img)) {
     color: var(--md-typeset-a-color);
     font-weight: 500;
     text-decoration-line: underline;
@@ -46,7 +46,7 @@
 
 .md-typeset
     :where(p, li, td, th, blockquote, dd)
-    a:not(.down-button):is(:hover, :focus) {
+    a:not(.down-button):not(:has(img)):is(:hover, :focus) {
     background: var(--hn-link-hover-bg);
     border-bottom: 1px dashed var(--hn-link-hover);
     color: var(--hn-link-hover);
