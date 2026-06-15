@@ -12,6 +12,7 @@ extra_css = [
   "https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css",
   "https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css",
   "https://gcore.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono-nl.min.css",
+  "https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/css/glightbox.min.css",
   "assets/css/custom.css",
   "assets/css/card.css",
 ]
@@ -20,6 +21,8 @@ extra_javascript = [
   "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js",
   "assets/js/katex.js",
+  "https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js",
+  "assets/js/glightbox.js",
   "assets/js/download-tracker.js",
 ]
 
