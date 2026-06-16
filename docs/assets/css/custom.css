@@ -27,7 +27,9 @@
 
 /* hyperlink */
 
-.md-typeset :where(p, li, td, th, blockquote, dd) a:not(.down-button):not(:has(img)) {
+.md-typeset
+    :where(p, li, td, th, blockquote, dd)
+    a:not(.down-button):not(:has(img)) {
     color: var(--md-typeset-a-color);
     font-weight: 500;
     text-decoration-line: underline;
